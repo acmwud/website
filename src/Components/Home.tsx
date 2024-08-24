@@ -64,7 +64,7 @@ function Home() {
                 <Container>
                   <Row>
                     <Col >
-                      <h2><u>Fall Involvement Fair</u></h2>
+                      <h2><u>Fall Involvement Fair </u></h2>
                       <h3>Date: Monday, 8/26 from 1-4p.m.</h3>
                       <h3>Location: Academy Street</h3>
                       <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! We have a lot of fun things planned and can't wait to meet everyone!</p>
