@@ -62,7 +62,7 @@ function Home() {
 
               <div className='events'>
                 <Container>
-                  <Row>
+                  {/* <Row>
                     <Col >
                       <h2><u>Fall Involvement Fair </u></h2>
                       <h3>Date: Monday, 8/26 from 1-4p.m.</h3>
@@ -83,17 +83,19 @@ function Home() {
                         >
                         Join our email list!
                       </Button>
-                    </Col>
-                  </Row>
-                </Container>
-                {/* <br></br>
-                <br></br>
-                <br></br>
+                    </Col> 
+                    </Row> */}
 
-                <h2><u>First Fall Meeting</u></h2>
-                <h3>Date:</h3>
-                <h3>Location:</h3>
-                <span>Description of event</span> */}
+                    <Row>
+                      <h2><u>First Fall Meeting</u></h2>
+                      <h3>Date: Wednesday, 9/4 at 5:30p.m.</h3>
+                      <h3>Location: Sharp Lab 105</h3>
+                      <p>Come meet our EBoard, learn about our club, and tell us what kinds of events you want to see this semester! Food will be provided!</p>
+                    </Row>
+
+
+                </Container>
+                
               </div>
             </section>
           </div>
