@@ -226,6 +226,9 @@ function Home() {
 
                       <li>RTC Conference Scholarship</li>
                       <li>Google Conference Scholarship</li>
+                      
+                      <h3 style ={{marginTop: "5vh"}}>Other Scholarships</h3>
+                      <a href="https://upe.acm.org/scholarship/"><li>UPE Scholarship ($1500)</li></a>
 
                   </div>
                 </Col>
