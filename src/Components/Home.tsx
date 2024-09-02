@@ -90,8 +90,23 @@ function Home() {
                       <h2><u>First Fall Meeting</u></h2>
                       <h3>Date: Wednesday, 9/4 at 5:30p.m.</h3>
                       <h3>Location: Sharp Lab 105</h3>
-                      <p>Come meet our EBoard, learn about our club, and tell us what kinds of events you want to see this semester! Food will be provided!</p>
+                      <p>Come hear about the board members, the exciting meetings planned for the semester, and how to get set up with an ACM-W mentor/mentee. We will be providing pizza and cupcakes!</p>
                     </Row>
+
+                    <Row>
+                      <h2><u>ACM-W Resume Workshop</u></h2>
+                      <h3>Date: Wednesday, 9/18 at 5:30p.m.</h3>
+                      <h3>Location: Sharp Lab 105</h3>
+                      <p>Join us for tips on how to make your resume stand out from the pool + peer resume reviews. Don't have a resume yet? No worries, we'll be sharing resources for creating a resume too!</p>
+                    </Row>
+
+                    <Row>
+                      <h2><u>UD CISC Career Fair</u></h2>
+                      <h3>Date: Thursday, 9/26 from 12:00 - 4:30p.m.</h3>
+                      <h3>Location: Trabant Multipurpose Rooms</h3>
+                    </Row>
+
+
 
 
                 </Container>
@@ -173,6 +188,7 @@ function Home() {
 
                       <a href="https://resumeworded.com/"><li>Resume Worded</li></a>
                       <a href="https://www.tealhq.com/tools/resume-builder"><li>TealAI</li></a>
+                      <a href="https://flowcv.com/"><li>Flow CV</li></a>
                       <a href="https://www.udel.edu/students/career-center/students/resume/"><li>UD Career Services</li></a>
                       <li>Your Friends!</li>
                       <li>Your Professors!</li>
@@ -207,6 +223,7 @@ function Home() {
                       <a href="https://convention.nsbe.org/"><li>National Society of Black Engineers Convention</li></a>
                       <a href="https://conference.aises.org/"><li>American Indian Science and Engineering Conference</li></a>
                       <a href="https://shpe.org/nc2024/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-_D7eKzZrBqiU9jLcUyCgJgGZiphKG4XR_dbNvnm-fzisPhCZPtH5hcJNGotcx2YbXMYQhG"><li>Society of Hispanic Professional Engineers Convention</li></a>
+                      <a href="https://afrotechconference.com/"><li>AfroTech Conference</li></a>
 
                   </div>
                   
@@ -231,6 +248,7 @@ function Home() {
                       
                       <h3 style ={{marginTop: "5vh"}}>Other Scholarships</h3>
                       <a href="https://upe.acm.org/scholarship/"><li>UPE Scholarship ($1500)</li></a>
+                      <a href="https://github.com/preciousonah/Tech-Scholarships-2025?tab=readme-ov-file"><li>List of Tech Scholarships</li></a>
 
                   </div>
                 </Col>
