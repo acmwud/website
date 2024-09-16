@@ -86,17 +86,17 @@ function Home() {
                     </Col> 
                     </Row> */}
 
-                    <Row>
+                    {/* <Row>
                       <h2><u>First Fall Meeting</u></h2>
                       <h3>Date: Wednesday, 9/4 at 5:30p.m.</h3>
                       <h3>Location: Sharp Lab 105</h3>
                       <p>Come hear about the board members, the exciting meetings planned for the semester, and how to get set up with an ACM-W mentor/mentee. We will be providing pizza and cupcakes!</p>
-                    </Row>
+                    </Row> */}
 
                     <Row>
                       <h2><u>ACM-W Resume Workshop</u></h2>
                       <h3>Date: Wednesday, 9/18 at 5:30p.m.</h3>
-                      <h3>Location: Sharp Lab 105</h3>
+                      <h3>Location: Brown Lab 206</h3>
                       <p>Join us for tips on how to make your resume stand out from the pool + peer resume reviews. Don't have a resume yet? No worries, we'll be sharing resources for creating a resume too!</p>
                     </Row>
 
