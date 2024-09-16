@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (134 ms)
+  ✕ renders learn react link (132 ms)
 
   ● renders learn react link
 
@@ -93,24 +93,6 @@ FAIL src/App.test.tsx
                     [36m>[39m
                       [36m<h2>[39m
                         [36m<u>[39m
-                          [0mFirst Fall Meeting[0m
-                        [36m</u>[39m
-                      [36m</h2>[39m
-                      [36m<h3>[39m
-                        [0mDate: Wednesday, 9/4 at 5:30p.m.[0m
-                      [36m</h3>[39m
-                      [36m<h3>[39m
-                        [0mLocation: Sharp Lab 105[0m
-                      [36m</h3>[39m
-                      [36m<p>[39m
-                        [0mCome hear about the board members, the exciting meetings planned for the semester, and how to get set up with an ACM-W mentor/mentee. We will be providing pizza and cupcakes![0m
-                      [36m</p>[39m
-                    [36m</div>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"row"[39m
-                    [36m>[39m
-                      [36m<h2>[39m
-                        [36m<u>[39m
                           [0mACM-W Resume Workshop[0m
                         [36m</u>[39m
                       [36m</h2>[39m
@@ -118,7 +100,7 @@ FAIL src/App.test.tsx
                         [0mDate: Wednesday, 9/18 at 5:30p.m.[0m
                       [36m</h3>[39m
                       [36m<h3>[39m
-                        [0mLocation: Sharp Lab 105[0m
+                        [0mLocation: Brown Lab 206[0m
                       [36m</h3>[39m
                       [36m<p>[39m
                         [0mJoin us for tips on how to make your resume stand out from the pool + peer resume reviews. Don't have a resume yet? No worries, we'll be sharing resources for creating a resume too![0m
@@ -177,7 +159,22 @@ FAIL src/App.test.tsx
                       [36m<p[39m
                         [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
                       [36m>[39m
-                        [0mWe are a registered chapter of the Association for Computing...
+                        [0mWe are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here![0m
+                      [36m</p>[39m
+                      [36m<button[39m
+                        [33mclass[39m=[32m"btn btn-primary"[39m
+                        [33mstyle[39m=[32m"width: 100%; padding: 5px; font-size: 1.5vw; background-color: rgba(244, 163, 0, 1); border: 0px;"[39m
+                        [33mtype[39m=[32m"button"[39m
+                      [36m>[39m
+                        [0mLearn more about our parent organization![0m
+                      [36m</button>[39m
+                    [36m</div>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"col"[39m
+                    [36m>[39m
+                      [36m<img[39m
+                        [33malt[39m=[32m"logo"[39m
+                        [33msrc[39m=[32m"Gr...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -213,7 +210,7 @@ All files            |   16.66 |        0 |    37.5 |   16.66 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.88 s
+Time:        2.926 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
