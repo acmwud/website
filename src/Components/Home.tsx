@@ -15,6 +15,7 @@ import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
 import IshaPicture from "./Images/EboardPictures/IshaPicture.jpg"
 import JoyPicture from "./Images/EboardPictures/JoyPicture.jpg";
 import OlivePicture from "./Images/EboardPictures/OlivePicture.jpeg";
+import HannaPicture from "./Images/EboardPictures/HannaPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
@@ -93,12 +94,12 @@ function Home() {
                       <p>Come hear about the board members, the exciting meetings planned for the semester, and how to get set up with an ACM-W mentor/mentee. We will be providing pizza and cupcakes!</p>
                     </Row> */}
 
-                    <Row>
+                    {/* <Row>
                       <h2><u>ACM-W Resume Workshop</u></h2>
                       <h3>Date: Wednesday, 9/18 at 5:30p.m.</h3>
                       <h3>Location: Brown Lab 206</h3>
                       <p>Join us for tips on how to make your resume stand out from the pool + peer resume reviews. Don't have a resume yet? No worries, we'll be sharing resources for creating a resume too!</p>
-                    </Row>
+                    </Row> */}
 
                     <Row>
                       <h2><u>UD CISC Career Fair</u></h2>
@@ -285,6 +286,8 @@ function Home() {
             <EBoardCard name='Jasmyn Navarro' position='Mentorship Coordinator' image={JasmynPicture} githubURL='https://github.com/JayNavarro' linkedinURL='https://www.linkedin.com/in/jasmyn-navarro/' ></EBoardCard>
 
             <EBoardCard name='Olivia Karney' position='Website Manager' image={OliviaPicture} githubURL='https://github.com/okarney' linkedinURL='https://www.linkedin.com/in/olivia-karney/' ></EBoardCard>
+            
+            <EBoardCard name='Hanna Gebrel' position='Social Media Chair' image={HannaPicture} githubURL='' linkedinURL='' ></EBoardCard>
 
           </div>
           <br></br>
