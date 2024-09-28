@@ -20,7 +20,7 @@ import StephaniePicture from "./Images/EboardPictures/StephaniePicture.jpg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
-import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
+// import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
 // import { link } from 'fs';
 
 function Home() {
