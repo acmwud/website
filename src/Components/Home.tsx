@@ -16,6 +16,7 @@ import IshaPicture from "./Images/EboardPictures/IshaPicture.jpg"
 import JoyPicture from "./Images/EboardPictures/JoyPicture.jpg";
 import OlivePicture from "./Images/EboardPictures/OlivePicture.jpeg";
 import HannaPicture from "./Images/EboardPictures/HannaPicture.jpeg";
+import StephaniePicture from "./Images/EboardPictures/StephaniePicture.jpg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
@@ -250,6 +251,8 @@ function Home() {
                       <h3 style ={{marginTop: "5vh"}}>Other Scholarships</h3>
                       <a href="https://upe.acm.org/scholarship/"><li>UPE Scholarship ($1500)</li></a>
                       <a href="https://github.com/preciousonah/Tech-Scholarships-2025?tab=readme-ov-file"><li>List of Tech Scholarships</li></a>
+                      <a href="https://www.udel.edu/students/career/career-development-support/funding-and-grants/"><li>Internship & Career Experience Grant</li></a>
+
 
                   </div>
                 </Col>
@@ -271,7 +274,7 @@ function Home() {
           <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 0}}>
             <EBoardCard name='Olive Odida' position='President' image={OlivePicture} githubURL='https://github.com/oodida' linkedinURL='https://www.linkedin.com/in/olive-odida/' ></EBoardCard>
 
-            <EBoardCard name='Stephanie Park' position='Vice President' image={placeHolder} githubURL='https://github.com/stephaaniepark' linkedinURL='https://www.linkedin.com/in/stephanie-park-12643a323/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' ></EBoardCard>
+            <EBoardCard name='Stephanie Park' position='Vice President' image={StephaniePicture} githubURL='https://github.com/stephaaniepark' linkedinURL='https://www.linkedin.com/in/stephanie-park-12643a323/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' ></EBoardCard>
 
             <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={JoyPicture} githubURL='https://github.com/joymmw' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
 
