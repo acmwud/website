@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 
 import Home from "./Components/Home"
-import Events from "./Components/Events"
 
 
 function App() {
@@ -27,10 +26,7 @@ function App() {
                     {/* This route is for home component 
           with exact path "/", in component props 
           we passes the imported component*/}
-                    <Route
-                        path="/Events"
-                        element={<Events />}
-                    />
+                    
 
  
                     {/* If any route mismatches the upper 
