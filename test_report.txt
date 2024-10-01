@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (149 ms)
+  ✕ renders learn react link (150 ms)
 
   ● renders learn react link
 
@@ -93,15 +93,18 @@ FAIL src/App.test.tsx
                     [36m>[39m
                       [36m<h2>[39m
                         [36m<u>[39m
-                          [0mUD CISC Career Fair[0m
+                          [0mCollborative Meeting with Competitive Programming Club[0m
                         [36m</u>[39m
                       [36m</h2>[39m
                       [36m<h3>[39m
-                        [0mDate: Thursday, 9/26 from 12:00 - 4:30p.m.[0m
+                        [0mDate: Monday, 10/1 from 5:30p.m.[0m
                       [36m</h3>[39m
                       [36m<h3>[39m
-                        [0mLocation: Trabant Multipurpose Rooms[0m
+                        [0mLocation: Memorial Hall 049[0m
                       [36m</h3>[39m
+                      [36m<p>[39m
+                        [0mCome learn about CPC and LeetCode![0m
+                      [36m</p>[39m
                     [36m</div>[39m
                   [36m</div>[39m
                 [36m</div>[39m
@@ -176,9 +179,7 @@ FAIL src/App.test.tsx
                   [0mJoin Us[0m
                 [36m</h1>[39m
                 [36m<div[39m
-                  [33mstyle[39m=[32m"display: flex; justify-content: center; margin-bottom: 6vh;"[39m
-                [36m>[39m
-                  [36m<i...
+       ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -208,12 +209,12 @@ All files            |      20 |        0 |      50 |      20 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |   66.66 |      100 |   66.66 |   66.66 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      50 |      100 |      50 |      50 | 143               
+  Home.tsx           |      50 |      100 |      50 |      50 | 151               
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.888 s
+Time:        2.961 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
