@@ -102,10 +102,18 @@ function Home() {
                       <p>Join us for tips on how to make your resume stand out from the pool + peer resume reviews. Don't have a resume yet? No worries, we'll be sharing resources for creating a resume too!</p>
                     </Row> */}
 
-                    <Row>
+                    {/* <Row>
                       <h2><u>UD CISC Career Fair</u></h2>
                       <h3>Date: Thursday, 9/26 from 12:00 - 4:30p.m.</h3>
                       <h3>Location: Trabant Multipurpose Rooms</h3>
+                    </Row> */}
+
+                    <Row>
+                      <h2><u>Collborative Meeting with Competitive Programming Club</u></h2>
+                      <h3>Date: Monday, 10/1 from 5:30p.m.</h3>
+                      <h3>Location: Memorial Hall 049</h3>
+                      <p>Come learn about CPC and LeetCode!</p>
+
                     </Row>
 
 

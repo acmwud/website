@@ -26,7 +26,6 @@ function App() {
                     {/* This route is for home component 
           with exact path "/", in component props 
           we passes the imported component*/}
-                    
 
  
                     {/* If any route mismatches the upper 
