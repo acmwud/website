@@ -109,11 +109,51 @@ function Home() {
                     </Row> */}
 
                     <Row>
-                      <h2><u>Collborative Meeting with Competitive Programming Club</u></h2>
+                      <h2><u>Getting Tech Interview Ready with Competitive Programming Club</u></h2>
                       <h3>Date: Monday, 10/1 from 5:30p.m.</h3>
                       <h3>Location: Memorial Hall 049</h3>
-                      <p>Come learn about CPC and LeetCode!</p>
+                      <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
+                    </Row>
 
+                    <Row>
+                            </Row>
+
+                            <Row>
+                      <Col >
+                      <h2><u>LeetCode Study Session</u></h2>
+                        <h3>Date: Saturday, 10/5 from 1:00p.m.</h3>
+                        <h3>Location: Morris Library 115F</h3>
+                        <p>You asked, we answered! Our first LeetCode study session will be this Saturday! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
+                      </Col>
+                      <Col style = {{display: "flex", justifyContent: "center", flexDirection: "column"}}>
+                        <Button 
+                          style={{padding: "1vh", marginBottom: "1vh",  fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
+                          onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdYe-AiS-zFnvEtTp61X0O0yPFjZBzdEpYzegCO6PcyKr1JAQ/viewform"}
+                          >
+                          Study Group Interest Form!
+                          </Button>
+                        <br></br>
+                        <Button 
+                          style={{padding: "1vh", fontSize: "2vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
+                          onClick={() => window.location.href = "https://www.when2meet.com/?26513393-VwbRE"}
+                          >
+                          Study Group Availability!
+                        </Button>
+                      </Col>                                      
+                    </Row>
+
+                    <Row>
+                      <h2><u>Class Registration Help</u></h2>
+                      <h3>Date: Monday, 10/14 from 6:00p.m.</h3>
+                      <h3>Location: Memorial Hall 049</h3>
+                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p> */}
+                    </Row>
+
+                    <Row>
+                      <h2><u>Halloween Arts and Crafts Night</u></h2>
+                      <h3>Date: Monday, 10/28 from 5:30p.m.</h3>
+                      <h3>Location: Memorial Hall 049</h3>
+                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p> */}
                     </Row>
 
 
