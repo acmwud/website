@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (150 ms)
+  ✕ renders learn react link (136 ms)
 
   ● renders learn react link
 
@@ -93,7 +93,7 @@ FAIL src/App.test.tsx
                     [36m>[39m
                       [36m<h2>[39m
                         [36m<u>[39m
-                          [0mCollborative Meeting with Competitive Programming Club[0m
+                          [0mGetting Tech Interview Ready with Competitive Programming Club[0m
                         [36m</u>[39m
                       [36m</h2>[39m
                       [36m<h3>[39m
@@ -103,83 +103,82 @@ FAIL src/App.test.tsx
                         [0mLocation: Memorial Hall 049[0m
                       [36m</h3>[39m
                       [36m<p>[39m
-                        [0mCome learn about CPC and LeetCode![0m
+                        [0mIt's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews![0m
                       [36m</p>[39m
-                    [36m</div>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-              [36m</section>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mstyle[39m=[32m"background-color: white; overflow: hidden; margin-bottom: 6vh;"[39m
-            [36m>[39m
-              [36m<section[39m
-                [33mid[39m=[32m"about"[39m
-              [36m>[39m
-                [36m<h1[39m
-                  [33mstyle[39m=[32m"margin-top: 6vh;"[39m
-                [36m>[39m
-                  [0mAbout Us[0m
-                [36m</h1>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"container"[39m
-                  [33mstyle[39m=[32m"margin-top: 2%;"[39m
-                [36m>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"row"[39m
-                  [36m>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"col"[39m
-                    [36m>[39m
-                      [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
-                      [36m>[39m
-                        [0mWe are a group of students that support women and nonbinary people in technology-driven fields at the University of Delaware. We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for ourselves and other students. Our goal is to promote women and nonbinary people in technology at UD, have fun and help students succeed in college.[0m
-                      [36m</p>[39m
-                      [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
-                      [36m>[39m
-                        [0mACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.[0m
-                      [36m</p>[39m
-                      [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
-                      [36m>[39m
-                        [0mWe are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here![0m
-                      [36m</p>[39m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"btn btn-primary"[39m
-                        [33mstyle[39m=[32m"width: 100%; padding: 5px; font-size: 1.5vw; background-color: rgba(244, 163, 0, 1); border: 0px;"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mLearn more about our parent organization![0m
-                      [36m</button>[39m
                     [36m</div>[39m
                     [36m<div[39m
-                      [33mclass[39m=[32m"col"[39m
+                      [33mclass[39m=[32m"row"[39m
+                    [36m/>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"row"[39m
                     [36m>[39m
-                      [36m<img[39m
-                        [33malt[39m=[32m"logo"[39m
-                        [33msrc[39m=[32m"GroupPicture.jpg"[39m
-                        [33mstyle[39m=[32m"width: 100%;"[39m
-                      [36m/>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"col"[39m
+                      [36m>[39m
+                        [36m<h2>[39m
+                          [36m<u>[39m
+                            [0mLeetCode Study Session[0m
+                          [36m</u>[39m
+                        [36m</h2>[39m
+                        [36m<h3>[39m
+                          [0mDate: Saturday, 10/5 from 1:00p.m.[0m
+                        [36m</h3>[39m
+                        [36m<h3>[39m
+                          [0mLocation: Morris Library 115F[0m
+                        [36m</h3>[39m
+                        [36m<p>[39m
+                          [0mYou asked, we answered! Our first LeetCode study session will be this Saturday! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.[0m
+                        [36m</p>[39m
+                      [36m</div>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"col"[39m
+                        [33mstyle[39m=[32m"display: flex; justify-content: center; flex-direction: column;"[39m
+                      [36m>[39m
+                        [36m<button[39m
+                          [33mclass[39m=[32m"btn btn-primary"[39m
+                          [33mstyle[39m=[32m"padding: 1vh; margin-bottom: 1vh; font-size: 2vw; background-color: rgb(70, 130, 180); border: 0px; color: white;"[39m
+                          [33mtype[39m=[32m"button"[39m
+                        [36m>[39m
+                          [0mStudy Group Interest Form![0m
+                        [36m</button>[39m
+                        [36m<br />[39m
+                        [36m<button[39m
+                          [33mclass[39m=[32m"btn btn-primary"[39m
+                          [33mstyle[39m=[32m"padding: 1vh; font-size: 2vw; background-color: rgb(70, 130, 180); border: 0px; color: white;"[39m
+                          [33mtype[39m=[32m"button"[39m
+                        [36m>[39m
+                          [0mStudy Group Availability![0m
+                        [36m</button>[39m
+                      [36m</div>[39m
                     [36m</div>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-              [36m</section>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mstyle[39m=[32m"background-color: rgb(224, 242, 253); overflow: hidden;"[39m
-            [36m>[39m
-              [36m<section[39m
-                [33mid[39m=[32m"join"[39m
-              [36m>[39m
-                [36m<h1[39m
-                  [33mstyle[39m=[32m"margin-top: 6vh; margin-bottom: 4vh;"[39m
-                [36m>[39m
-                  [0mJoin Us[0m
-                [36m</h1>[39m
-                [36m<div[39m
-       ...
+                    [36m<div[39m
+                      [33mclass[39m=[32m"row"[39m
+                    [36m>[39m
+                      [36m<h2>[39m
+                        [36m<u>[39m
+                          [0mClass Registration Help[0m
+                        [36m</u>[39m
+                      [36m</h2>[39m
+                      [36m<h3>[39m
+                        [0mDate: Monday, 10/14 from 6:00p.m.[0m
+                      [36m</h3>[39m
+                      [36m<h3>[39m
+                        [0mLocation: Memorial Hall 049[0m
+                      [36m</h3>[39m
+                    [36m</div>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"row"[39m
+                    [36m>[39m
+                      [36m<h2>[39m
+                        [36m<u>[39m
+                          [0mHalloween Arts and Crafts Night[0m
+                        [36m</u>[39m
+                      [36m</h2>[39m
+                      [36m<h3>[39m
+                        [0mDate: Monday, 10/28 from 5:30p.m.[0m
+                      [36m</h3>[39m
+                      [36m<h3>[39m
+                        ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -202,19 +201,19 @@ FAIL src/App.test.tsx
 ---------------------|---------|----------|---------|---------|-------------------
 File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 ---------------------|---------|----------|---------|---------|-------------------
-All files            |      20 |        0 |      50 |      20 |                   
+All files            |   17.64 |        0 |    37.5 |   17.64 |                   
  src                 |    8.33 |        0 |   33.33 |    8.33 |                   
   App.tsx            |     100 |      100 |     100 |     100 |                   
   index.tsx          |       0 |      100 |     100 |       0 | 9-21              
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/Components      |   66.66 |      100 |   66.66 |   66.66 |                   
+ src/Components      |      40 |      100 |      40 |      40 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      50 |      100 |      50 |      50 | 151               
+  Home.tsx           |      25 |      100 |      25 |      25 | 131-191           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.961 s
+Time:        2.883 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
