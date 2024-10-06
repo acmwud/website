@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (136 ms)
+  ✕ renders learn react link (155 ms)
 
   ● renders learn react link
 
@@ -91,27 +91,6 @@ FAIL src/App.test.tsx
                     [36m<div[39m
                       [33mclass[39m=[32m"row"[39m
                     [36m>[39m
-                      [36m<h2>[39m
-                        [36m<u>[39m
-                          [0mGetting Tech Interview Ready with Competitive Programming Club[0m
-                        [36m</u>[39m
-                      [36m</h2>[39m
-                      [36m<h3>[39m
-                        [0mDate: Monday, 10/1 from 5:30p.m.[0m
-                      [36m</h3>[39m
-                      [36m<h3>[39m
-                        [0mLocation: Memorial Hall 049[0m
-                      [36m</h3>[39m
-                      [36m<p>[39m
-                        [0mIt's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews![0m
-                      [36m</p>[39m
-                    [36m</div>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"row"[39m
-                    [36m/>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"row"[39m
-                    [36m>[39m
                       [36m<div[39m
                         [33mclass[39m=[32m"col"[39m
                       [36m>[39m
@@ -156,6 +135,24 @@ FAIL src/App.test.tsx
                     [36m>[39m
                       [36m<h2>[39m
                         [36m<u>[39m
+                          [0mGetting Tech Interview Ready with Competitive Programming Club[0m
+                        [36m</u>[39m
+                      [36m</h2>[39m
+                      [36m<h3>[39m
+                        [0mDate: Monday, 10/7 from 5:30p.m.[0m
+                      [36m</h3>[39m
+                      [36m<h3>[39m
+                        [0mLocation: Memorial Hall 049[0m
+                      [36m</h3>[39m
+                      [36m<p>[39m
+                        [0mIt's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews![0m
+                      [36m</p>[39m
+                    [36m</div>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"row"[39m
+                    [36m>[39m
+                      [36m<h2>[39m
+                        [36m<u>[39m
                           [0mClass Registration Help[0m
                         [36m</u>[39m
                       [36m</h2>[39m
@@ -178,7 +175,10 @@ FAIL src/App.test.tsx
                         [0mDate: Monday, 10/28 from 5:30p.m.[0m
                       [36m</h3>[39m
                       [36m<h3>[39m
-                        ...
+                        [0mLocation: Memorial Hall 049[0m
+                      [36m</h3>[39m
+                    [36m</div>[39m
+            ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -208,12 +208,12 @@ All files            |   17.64 |        0 |    37.5 |   17.64 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |      40 |      100 |      40 |      40 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      25 |      100 |      25 |      25 | 131-191           
+  Home.tsx           |      25 |      100 |      25 |      25 | 121-189           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.883 s
+Time:        2.952 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
