@@ -108,17 +108,7 @@ function Home() {
                       <h3>Location: Trabant Multipurpose Rooms</h3>
                     </Row> */}
 
-                    <Row>
-                      <h2><u>Getting Tech Interview Ready with Competitive Programming Club</u></h2>
-                      <h3>Date: Monday, 10/1 from 5:30p.m.</h3>
-                      <h3>Location: Memorial Hall 049</h3>
-                      <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
-                    </Row>
-
-                    <Row>
-                            </Row>
-
-                            <Row>
+<Row>
                       <Col >
                       <h2><u>LeetCode Study Session</u></h2>
                         <h3>Date: Saturday, 10/5 from 1:00p.m.</h3>
@@ -141,7 +131,15 @@ function Home() {
                         </Button>
                       </Col>                                      
                     </Row>
+                    
+                    <Row>
+                      <h2><u>Getting Tech Interview Ready with Competitive Programming Club</u></h2>
+                      <h3>Date: Monday, 10/7 from 5:30p.m.</h3>
+                      <h3>Location: Memorial Hall 049</h3>
+                      <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
+                    </Row>
 
+                    
                     <Row>
                       <h2><u>Class Registration Help</u></h2>
                       <h3>Date: Monday, 10/14 from 6:00p.m.</h3>
@@ -196,6 +194,20 @@ function Home() {
 
               </Col>
             </Row>
+            {/* <Row>
+              <h2 style={{marginTop: "6vh", fontSize: "2.0vw"}}><u>Get Involved</u></h2>
+              <Row>
+                <Col>
+                  <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>LeetCode Study Group</h2>
+
+                </Col>
+
+                <Col>
+                  <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>Mentorship Program</h2>
+
+                </Col>
+              </Row>
+            </Row> */}
           </Container>
           </section>
           </div>
