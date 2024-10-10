@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (155 ms)
+  ✕ renders learn react link (127 ms)
 
   ● renders learn react link
 
@@ -96,17 +96,17 @@ FAIL src/App.test.tsx
                       [36m>[39m
                         [36m<h2>[39m
                           [36m<u>[39m
-                            [0mLeetCode Study Session[0m
+                            [0mLeetCode Study Sessions[0m
                           [36m</u>[39m
                         [36m</h2>[39m
                         [36m<h3>[39m
-                          [0mDate: Saturday, 10/5 from 1:00p.m.[0m
+                          [0mDate: Saturdays at 1:00p.m.[0m
                         [36m</h3>[39m
                         [36m<h3>[39m
                           [0mLocation: Morris Library 115F[0m
                         [36m</h3>[39m
                         [36m<p>[39m
-                          [0mYou asked, we answered! Our first LeetCode study session will be this Saturday! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.[0m
+                          [0mCome study for technical interview with us! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.[0m
                         [36m</p>[39m
                       [36m</div>[39m
                       [36m<div[39m
@@ -135,50 +135,48 @@ FAIL src/App.test.tsx
                     [36m>[39m
                       [36m<h2>[39m
                         [36m<u>[39m
-                          [0mGetting Tech Interview Ready with Competitive Programming Club[0m
+                          [0mFirst Mentor Mentee Meeting! With Rewriting the Code![0m
                         [36m</u>[39m
                       [36m</h2>[39m
                       [36m<h3>[39m
-                        [0mDate: Monday, 10/7 from 5:30p.m.[0m
+                        [0mDate: Monday, 10/14 from 5:30p.m.[0m
                       [36m</h3>[39m
                       [36m<h3>[39m
                         [0mLocation: Memorial Hall 049[0m
                       [36m</h3>[39m
-                      [36m<p>[39m
-                        [0mIt's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews![0m
+                    [36m</div>[39m
+                  [36m</div>[39m
+                [36m</div>[39m
+              [36m</section>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mstyle[39m=[32m"background-color: white; overflow: hidden; margin-bottom: 6vh;"[39m
+            [36m>[39m
+              [36m<section[39m
+                [33mid[39m=[32m"about"[39m
+              [36m>[39m
+                [36m<h1[39m
+                  [33mstyle[39m=[32m"margin-top: 6vh;"[39m
+                [36m>[39m
+                  [0mAbout Us[0m
+                [36m</h1>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"container"[39m
+                  [33mstyle[39m=[32m"margin-top: 2%;"[39m
+                [36m>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"row"[39m
+                  [36m>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"col"[39m
+                    [36m>[39m
+                      [36m<p[39m
+                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
+                      [36m>[39m
+                        [0mWe are a group of students that support women and nonbinary people in technology-driven fields at the University of Delaware. We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for ourselves and other students. Our goal is to promote women and nonbinary people in technology at UD, have fun and help students succeed in college.[0m
                       [36m</p>[39m
-                    [36m</div>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"row"[39m
-                    [36m>[39m
-                      [36m<h2>[39m
-                        [36m<u>[39m
-                          [0mClass Registration Help[0m
-                        [36m</u>[39m
-                      [36m</h2>[39m
-                      [36m<h3>[39m
-                        [0mDate: Monday, 10/14 from 6:00p.m.[0m
-                      [36m</h3>[39m
-                      [36m<h3>[39m
-                        [0mLocation: Memorial Hall 049[0m
-                      [36m</h3>[39m
-                    [36m</div>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"row"[39m
-                    [36m>[39m
-                      [36m<h2>[39m
-                        [36m<u>[39m
-                          [0mHalloween Arts and Crafts Night[0m
-                        [36m</u>[39m
-                      [36m</h2>[39m
-                      [36m<h3>[39m
-                        [0mDate: Monday, 10/28 from 5:30p.m.[0m
-                      [36m</h3>[39m
-                      [36m<h3>[39m
-                        [0mLocation: Memorial Hall 049[0m
-                      [36m</h3>[39m
-                    [36m</div>[39m
-            ...
+                      [36m<p[39m
+                        [33ms...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -208,12 +206,12 @@ All files            |   17.64 |        0 |    37.5 |   17.64 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |      40 |      100 |      40 |      40 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      25 |      100 |      25 |      25 | 121-189           
+  Home.tsx           |      25 |      100 |      25 |      25 | 121-195           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.952 s
+Time:        2.931 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
