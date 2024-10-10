@@ -110,10 +110,10 @@ function Home() {
 
 <Row>
                       <Col >
-                      <h2><u>LeetCode Study Session</u></h2>
-                        <h3>Date: Saturday, 10/5 from 1:00p.m.</h3>
+                      <h2><u>LeetCode Study Sessions</u></h2>
+                        <h3>Date: Saturdays at 1:00p.m.</h3>
                         <h3>Location: Morris Library 115F</h3>
-                        <p>You asked, we answered! Our first LeetCode study session will be this Saturday! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
+                        <p>Come study for technical interview with us! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
                       </Col>
                       <Col style = {{display: "flex", justifyContent: "center", flexDirection: "column"}}>
                         <Button 
@@ -132,27 +132,33 @@ function Home() {
                       </Col>                                      
                     </Row>
                     
-                    <Row>
+                    {/* <Row>
                       <h2><u>Getting Tech Interview Ready with Competitive Programming Club</u></h2>
                       <h3>Date: Monday, 10/7 from 5:30p.m.</h3>
                       <h3>Location: Memorial Hall 049</h3>
                       <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
-                    </Row>
+                    </Row> */}
 
-                    
                     <Row>
+                      <h2><u>First Mentor Mentee Meeting! With Rewriting the Code!</u></h2>
+                      <h3>Date: Monday, 10/14 from 5:30p.m.</h3>
+                      <h3>Location: Memorial Hall 049</h3>
+                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p> */}
+                    </Row>
+                    
+                    {/* <Row>
                       <h2><u>Class Registration Help</u></h2>
                       <h3>Date: Monday, 10/14 from 6:00p.m.</h3>
                       <h3>Location: Memorial Hall 049</h3>
-                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p> */}
-                    </Row>
+                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
+                    </Row> */}
 
-                    <Row>
+                    {/* <Row>
                       <h2><u>Halloween Arts and Crafts Night</u></h2>
                       <h3>Date: Monday, 10/28 from 5:30p.m.</h3>
                       <h3>Location: Memorial Hall 049</h3>
-                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p> */}
-                    </Row>
+                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
+                    </Row> */}
 
 
 
