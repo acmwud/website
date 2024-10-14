@@ -108,7 +108,7 @@ function Home() {
                       <h3>Location: Trabant Multipurpose Rooms</h3>
                     </Row> */}
 
-<Row>
+                    {/* <Row>
                       <Col >
                       <h2><u>LeetCode Study Sessions</u></h2>
                         <h3>Date: Saturdays at 1:00p.m.</h3>
@@ -130,7 +130,7 @@ function Home() {
                           Study Group Availability!
                         </Button>
                       </Col>                                      
-                    </Row>
+                    </Row> */}
                     
                     {/* <Row>
                       <h2><u>Getting Tech Interview Ready with Competitive Programming Club</u></h2>
@@ -139,19 +139,19 @@ function Home() {
                       <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
                     </Row> */}
 
-                    <Row>
+                    {/* <Row>
                       <h2><u>First Mentor Mentee Meeting! With Rewriting the Code!</u></h2>
                       <h3>Date: Monday, 10/14 from 5:30p.m.</h3>
                       <h3>Location: Memorial Hall 049</h3>
-                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p> */}
-                    </Row>
-                    
-                    {/* <Row>
-                      <h2><u>Class Registration Help</u></h2>
-                      <h3>Date: Monday, 10/14 from 6:00p.m.</h3>
-                      <h3>Location: Memorial Hall 049</h3>
                       {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
                     </Row> */}
+                    
+                    <Row>
+                      <h2><u>Spring Class Registration Help</u></h2>
+                      <h3>Date: Monday, 10/21 from 5:30p.m.</h3>
+                      <h3>Location: Memorial Hall 049</h3>
+                      <p>Not sure what classes to register for next semester? We can help! Come learn about reccomended courses, organizing your schedule, choosing a concentration, and more! Hope to see you there!</p>
+                    </Row>
 
                     {/* <Row>
                       <h2><u>Halloween Arts and Crafts Night</u></h2>
@@ -205,11 +205,35 @@ function Home() {
               <Row>
                 <Col>
                   <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>LeetCode Study Group</h2>
-
+                        <h3 style={{fontSize: "1vw"}}>Saturdays at 1:00p.m. in Morris Library</h3>
+                        <h3 style={{fontSize: "1vw"}}></h3>
+                        <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Come study for technical interview with us! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
+                        <Button 
+                          style={{padding: "2.5%", marginBottom: "1vh",  fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
+                          onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdYe-AiS-zFnvEtTp61X0O0yPFjZBzdEpYzegCO6PcyKr1JAQ/viewform"}
+                          >
+                          Study Group Interest Form!
+                          </Button>
+                        <br></br>
+                        <Button 
+                          style={{padding: "2.5%", fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
+                          onClick={() => window.location.href = "https://www.when2meet.com/?26513393-VwbRE"}
+                          >
+                          Study Group Availability!
+                        </Button>
                 </Col>
 
                 <Col>
                   <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>Mentorship Program</h2>
+                  <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Are you and underclassman looking for advice? Join our mentorship program to learn more about classes, internships opportunities, careers, grad school, and more!</p>
+                  <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Are you and upperclassman or grad student who wants to help other women in tech? Become a mentor in our mentorship program to share your experience and help other women tech learn about how they can succeed in tech too!</p>
+
+                  <Button 
+                    style={{padding: "2.5%", fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
+                    onClick={() => window.location.href = "https://www.when2meet.com/?26513393-VwbRE"}
+                    >
+                    Interest Form
+                  </Button>
 
                 </Col>
               </Row>
@@ -218,18 +242,8 @@ function Home() {
           </section>
           </div>
 
-          <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
-          <section id="join">
-          <h1 style={{marginTop: "6vh", marginBottom: "4vh"}}>Join Us</h1>
-        
-          <div style ={{display: "flex", justifyContent: "center", marginBottom: "6vh"}}>
-            <iframe title= "join email list google form" src="https://forms.gle/sdKo1PJ4JWxFqqfo7" style={{width: "70vw", height: "60vh"}} ></iframe>
-          </div>
-          </section>
-          </div>
 
-
-          <div style={{backgroundColor: "white", marginTop: 0, marginBottom: "6vh", overflow: "hidden"}}>
+          <div style={{backgroundColor: "#E0F2FD", marginTop: 0, marginBottom: "5vh", overflow: "hidden"}}>
           <section id="resources">
           <h1 style = {{marginTop: "6vh", marginBottom: "4vh"}}>Resources</h1>
 
@@ -324,8 +338,79 @@ function Home() {
                 </Col>
               </Row>
             </Container>
+
+           <br></br>
+           <br></br>
+
+
             </section>
             </div>
+
+
+          <div style={{backgroundColor: "white", overflow: "hidden", marginBottom: "6vh"}}>
+          <section id="join">
+          <h1 style={{marginTop: "0vh", marginBottom: "4vh"}}>Get Involved</h1>
+        
+          <Container>
+              
+              <Row>
+                <Col>
+                  <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>LeetCode Study Group</h2>
+                        <h3 style={{fontSize: "1vw"}}>Saturdays at 1:00p.m. in Morris Library</h3>
+                        <h3 style={{fontSize: "1vw"}}></h3>
+                        <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Come study for technical interview with us! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
+                        
+                        <br></br>
+                        
+
+                        <div style={{display: "flex", flexDirection: "row"}}>
+                          <Button 
+                            style={{padding: "2.5%", marginRight: "1vw", marginBottom: "1vh",  fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
+                            onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdYe-AiS-zFnvEtTp61X0O0yPFjZBzdEpYzegCO6PcyKr1JAQ/viewform"}
+                            >
+                            Study Group Interest Form
+                            </Button>
+
+                          <Button 
+                            style={{padding: "2.5%", marginBottom: "1vh",  fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
+                            onClick={() => window.location.href = "https://www.when2meet.com/?26513393-VwbRE"}
+                            >
+                            Study Group Availability
+                          </Button>
+                        </div>
+                </Col>
+
+                <Col>
+                  <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>Mentorship Program</h2>
+                  <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Are you and underclassman looking for advice? Join our mentorship program to learn more about classes, internships opportunities, careers, grad school, and more!</p>
+                  <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Are you and upperclassman or grad student who wants to help other women in tech? Become a mentor in our mentorship program to share your experience and help other women tech learn about how they can succeed in tech too!</p>
+
+                  <Button 
+                    style={{padding: "2.5%", fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
+                    onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdtHiqj_cNfdVTjhlJb1dZoqgKTS1NWsWB3-yWmkCm966b_Fw/viewform?usp=sf_link"}
+                    >
+                    Interest Form
+                  </Button>
+
+                </Col>
+              </Row>
+          </Container>
+          
+          </section>
+          </div>
+
+          <div style={{backgroundColor: "#E0F2FD", overflow: "hidden"}}>
+          <section id="join">
+          <h1 style={{marginTop: "6vh", marginBottom: "4vh"}}>Join Us</h1>
+        
+          <div style ={{display: "flex", justifyContent: "center", marginBottom: "6vh"}}>
+            <iframe title= "join email list google form" src="https://forms.gle/sdKo1PJ4JWxFqqfo7" style={{width: "70vw", height: "60vh"}} ></iframe>
+          </div>
+          </section>
+          </div>
+
+
+          
 
             {/* <div style={{backgroundColor: "#00309B", marginTop: 0, overflow: "hidden"}}>hello</div>
             <div style={{backgroundColor: "#E0F2FD", marginTop: 0, overflow: "hidden"}}>hello</div> */}
@@ -333,7 +418,7 @@ function Home() {
             <div style={{backgroundColor: "#F5F5F5", marginTop: 0, overflow: "hidden"}}>hello</div> */}
 
 
-          <div style={{backgroundColor: "#E0F2FD", marginTop: "0%", overflow: "hidden"}}>
+          <div style={{backgroundColor: "white", marginTop: "0%", overflow: "hidden"}}>
           <section id="eboard">
           <h1 style={{marginTop: "6vh"}}>E-Board</h1>
           <span style={{display: "flex", justifyContent: "center", fontSize: "1.3vw", marginBottom: "2vh"}}><i>2024 - 2025</i></span>
