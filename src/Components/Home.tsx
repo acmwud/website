@@ -357,7 +357,6 @@ function Home() {
                 <Col>
                   <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>LeetCode Study Group</h2>
                         <h3 style={{fontSize: "1vw"}}>Saturdays at 1:00p.m. in Morris Library</h3>
-                        <h3 style={{fontSize: "1vw"}}></h3>
                         <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Come study for technical interview with us! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
                         
                         <br></br>
