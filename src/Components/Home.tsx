@@ -139,26 +139,23 @@ function Home() {
                       <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
                     </Row> */}
 
-                    {/* <Row>
-                      <h2><u>First Mentor Mentee Meeting! With Rewriting the Code!</u></h2>
-                      <h3>Date: Monday, 10/14 from 5:30p.m.</h3>
-                      <h3>Location: Memorial Hall 049</h3>
-                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
-                    </Row> */}
+    
                     
-                    <Row>
+                    {/* <Row>
                       <h2><u>Spring Class Registration Help</u></h2>
                       <h3>Date: Monday, 10/21 from 5:30p.m.</h3>
                       <h3>Location: Memorial Hall 049</h3>
                       <p>Not sure what classes to register for next semester? We can help! Come learn about reccomended courses, organizing your schedule, choosing a concentration, and more! Hope to see you there!</p>
+                    </Row> */}
+
+                    <Row>
+                      <h2><u>Rewriting the Code: Mentorship as a Launchpad to Success</u></h2>
+                      <h3>Date: Monday, 10/30 from 5:15p.m.</h3>
+                      <h3>Location: ISE Lab Building, Room 202</h3>
+                      <p>We are hosting an RTC social! Come out to learn about Rewriting the Code and to learn about how mentorship can be an amazing tool to reach your professional goals!</p>
                     </Row>
 
-                    {/* <Row>
-                      <h2><u>Halloween Arts and Crafts Night</u></h2>
-                      <h3>Date: Monday, 10/28 from 5:30p.m.</h3>
-                      <h3>Location: Memorial Hall 049</h3>
-                      {/* <p>It's peak recruiting season and prime time to learn about how to ace your technical interviews. Join us on October 3rd along with the Competitive Programming Club to learn key interview topics and how to use them in your interviews!</p>
-                    </Row> */}
+                    
 
 
 
