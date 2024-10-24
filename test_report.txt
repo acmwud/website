@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (159 ms)
+  ✕ renders learn react link (154 ms)
 
   ● renders learn react link
 
@@ -93,17 +93,17 @@ FAIL src/App.test.tsx
                     [36m>[39m
                       [36m<h2>[39m
                         [36m<u>[39m
-                          [0mSpring Class Registration Help[0m
+                          [0mRewriting the Code: Mentorship as a Launchpad to Success[0m
                         [36m</u>[39m
                       [36m</h2>[39m
                       [36m<h3>[39m
-                        [0mDate: Monday, 10/21 from 5:30p.m.[0m
+                        [0mDate: Monday, 10/30 from 5:15p.m.[0m
                       [36m</h3>[39m
                       [36m<h3>[39m
-                        [0mLocation: Memorial Hall 049[0m
+                        [0mLocation: ISE Lab Building, Room 202[0m
                       [36m</h3>[39m
                       [36m<p>[39m
-                        [0mNot sure what classes to register for next semester? We can help! Come learn about reccomended courses, organizing your schedule, choosing a concentration, and more! Hope to see you there![0m
+                        [0mWe are hosting an RTC social! Come out to learn about Rewriting the Code and to learn about how mentorship can be an amazing tool to reach your professional goals![0m
                       [36m</p>[39m
                     [36m</div>[39m
                   [36m</div>[39m
@@ -174,7 +174,7 @@ FAIL src/App.test.tsx
                 [33mid[39m=[32m"resources"[39m
               [36m>[39m
                 [36m<h1[39m
-                  [33...
+            ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -194,6 +194,23 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
+---------------------|---------|----------|---------|---------|-------------------
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------|---------|----------|---------|---------|-------------------
+All files            |   16.66 |        0 |   33.33 |   16.66 |                   
+ src                 |    8.33 |        0 |   33.33 |    8.33 |                   
+  App.tsx            |     100 |      100 |     100 |     100 |                   
+  index.tsx          |       0 |      100 |     100 |       0 | 9-21              
+  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
+ src/Components      |   33.33 |      100 |   33.33 |   33.33 |                   
+  Eboard.tsx         |     100 |      100 |     100 |     100 |                   
+  Home.tsx           |      20 |      100 |      20 |      20 | 192-386           
+---------------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 1 total
+Snapshots:   0 total
+Time:        2.924 s
+Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
 declaring it in its dependencies. This is currently working because
@@ -206,20 +223,3 @@ ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
 your devDependencies to work around this error. This will make this message
 go away.[0m
   
----------------------|---------|----------|---------|---------|-------------------
-File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
----------------------|---------|----------|---------|---------|-------------------
-All files            |   16.66 |        0 |   33.33 |   16.66 |                   
- src                 |    8.33 |        0 |   33.33 |    8.33 |                   
-  App.tsx            |     100 |      100 |     100 |     100 |                   
-  index.tsx          |       0 |      100 |     100 |       0 | 9-21              
-  reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
- src/Components      |   33.33 |      100 |   33.33 |   33.33 |                   
-  Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      20 |      100 |      20 |      20 | 195-389           
----------------------|---------|----------|---------|---------|-------------------
-Test Suites: 1 failed, 1 total
-Tests:       1 failed, 1 total
-Snapshots:   0 total
-Time:        3.238 s
-Ran all test suites.
