@@ -148,11 +148,18 @@ function Home() {
                       <p>Not sure what classes to register for next semester? We can help! Come learn about reccomended courses, organizing your schedule, choosing a concentration, and more! Hope to see you there!</p>
                     </Row> */}
 
-                    <Row>
+                    {/* <Row>
                       <h2><u>Rewriting the Code: Mentorship as a Launchpad to Success</u></h2>
                       <h3>Date: Monday, 10/30 from 5:15p.m.</h3>
                       <h3>Location: ISE Lab Building, Room 202</h3>
                       <p>We are hosting an RTC social! Come out to learn about Rewriting the Code and to learn about how mentorship can be an amazing tool to reach your professional goals!</p>
+                    </Row> */}
+
+                    <Row>
+                      <h2><u>Unwind with ACM-W</u></h2>
+                      <h3>Date: Monday, 11/18 from 5:30p.m.</h3>
+                      <h3>Location: Memorial Hall, Room 049</h3>
+                      <p>Join us for snacks and conversation as we unwind from the semester. Snacks on us!</p>
                     </Row>
 
                     
