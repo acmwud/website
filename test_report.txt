@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (154 ms)
+  ✕ renders learn react link (148 ms)
 
   ● renders learn react link
 
@@ -93,17 +93,17 @@ FAIL src/App.test.tsx
                     [36m>[39m
                       [36m<h2>[39m
                         [36m<u>[39m
-                          [0mRewriting the Code: Mentorship as a Launchpad to Success[0m
+                          [0mUnwind with ACM-W[0m
                         [36m</u>[39m
                       [36m</h2>[39m
                       [36m<h3>[39m
-                        [0mDate: Monday, 10/30 from 5:15p.m.[0m
+                        [0mDate: Monday, 11/18 from 5:30p.m.[0m
                       [36m</h3>[39m
                       [36m<h3>[39m
-                        [0mLocation: ISE Lab Building, Room 202[0m
+                        [0mLocation: Memorial Hall, Room 049[0m
                       [36m</h3>[39m
                       [36m<p>[39m
-                        [0mWe are hosting an RTC social! Come out to learn about Rewriting the Code and to learn about how mentorship can be an amazing tool to reach your professional goals![0m
+                        [0mJoin us for snacks and conversation as we unwind from the semester. Snacks on us![0m
                       [36m</p>[39m
                     [36m</div>[39m
                   [36m</div>[39m
@@ -174,7 +174,9 @@ FAIL src/App.test.tsx
                 [33mid[39m=[32m"resources"[39m
               [36m>[39m
                 [36m<h1[39m
-            ...
+                  [33mstyle[39m=[32m"margin-top: 6vh; margin-bottom: 4vh;"[39m
+                [36m>[39m
+                  [0mResources[...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -204,12 +206,12 @@ All files            |   16.66 |        0 |   33.33 |   16.66 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |   33.33 |      100 |   33.33 |   33.33 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      20 |      100 |      20 |      20 | 192-386           
+  Home.tsx           |      20 |      100 |      20 |      20 | 199-393           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.924 s
+Time:        2.877 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
