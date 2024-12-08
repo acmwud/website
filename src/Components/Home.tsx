@@ -155,11 +155,18 @@ function Home() {
                       <p>We are hosting an RTC social! Come out to learn about Rewriting the Code and to learn about how mentorship can be an amazing tool to reach your professional goals!</p>
                     </Row> */}
 
-                    <Row>
+                    {/* <Row>
                       <h2><u>Unwind with ACM-W</u></h2>
-                      <h3>Date: Monday, 11/18 from 5:30p.m.</h3>
+                      <h3>Date: Monday, 11/18 at 5:30p.m.</h3>
                       <h3>Location: Memorial Hall, Room 049</h3>
                       <p>Join us for snacks and conversation as we unwind from the semester. Snacks on us!</p>
+                    </Row> */}
+
+                    <Row>
+                      <h2><u>Hot Cocoa + Study Session!</u></h2>
+                      <h3>Date: Monday, 12/9 at 5:30p.m.</h3>
+                      <h3>Location: Memorial Hall, Room 049</h3>
+                      <p>Come out to our last meeting of the semester to grab some hot chocolate and study with us before finals!</p>
                     </Row>
 
                     
