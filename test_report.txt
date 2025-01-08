@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (157 ms)
+  ✕ renders learn react link (169 ms)
 
   ● renders learn react link
 
@@ -88,95 +88,68 @@ FAIL src/App.test.tsx
                   [36m<div[39m
                     [33mclass[39m=[32m"container"[39m
                   [36m>[39m
+                    [36m<p>[39m
+                      [0mCheck back in the Spring semester! We have a lot of fun events planned![0m
+                    [36m</p>[39m
+                    [36m<p>[39m
+                      [0mIn the mean time, feel free to connect with through Instagram or Discord![0m
+                    [36m</p>[39m
+                    [36m<br />[39m
+                    [36m<br />[39m
                     [36m<div[39m
-                      [33mclass[39m=[32m"row"[39m
+                      [33mstyle[39m=[32m"display: flex; justify-content: center; align-content: left;"[39m
                     [36m>[39m
-                      [36m<h2>[39m
-                        [36m<u>[39m
-                          [0mHot Cocoa + Study Session![0m
-                        [36m</u>[39m
-                      [36m</h2>[39m
-                      [36m<h3>[39m
-                        [0mDate: Monday, 12/9 at 5:30p.m.[0m
-                      [36m</h3>[39m
-                      [36m<h3>[39m
-                        [0mLocation: Memorial Hall, Room 049[0m
-                      [36m</h3>[39m
-                      [36m<p>[39m
-                        [0mCome out to our last meeting of the semester to grab some hot chocolate and study with us before finals![0m
-                      [36m</p>[39m
-                    [36m</div>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-              [36m</section>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mstyle[39m=[32m"background-color: white; overflow: hidden; margin-bottom: 6vh;"[39m
-            [36m>[39m
-              [36m<section[39m
-                [33mid[39m=[32m"about"[39m
-              [36m>[39m
-                [36m<h1[39m
-                  [33mstyle[39m=[32m"margin-top: 6vh;"[39m
-                [36m>[39m
-                  [0mAbout Us[0m
-                [36m</h1>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"container"[39m
-                  [33mstyle[39m=[32m"margin-top: 2%;"[39m
-                [36m>[39m
-                  [36m<div[39m
-                    [33mclass[39m=[32m"row"[39m
-                  [36m>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"col"[39m
-                    [36m>[39m
-                      [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"container"[39m
+                        [33mstyle[39m=[32m"display: flex; justify-content: center; align-content: center; width: 70vw;"[39m
                       [36m>[39m
-                        [0mWe are a group of students that support women and nonbinary people in technology-driven fields at the University of Delaware. We like to hang out together to chat and discuss professional or technical topics, as well as to serve as a support group for ourselves and other students. Our goal is to promote women and nonbinary people in technology at UD, have fun and help students succeed in college.[0m
-                      [36m</p>[39m
-                      [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
-                      [36m>[39m
-                        [0mACM-W is open to all undergraduate, graduate, and faculty in technology driven fields. Anyone is welcome to join us.[0m
-                      [36m</p>[39m
-                      [36m<p[39m
-                        [33mstyle[39m=[32m"font-size: 1vw; margin-bottom: 2.5vh;"[39m
-                      [36m>[39m
-                        [0mWe are a registered chapter of the Association for Computing Machinery's Council on Women in Computing (ACM-W). Learn more about our parent organization here![0m
-                      [36m</p>[39m
-                      [36m<button[39m
-                        [33mclass[39m=[32m"btn btn-primary"[39m
-                        [33mstyle[39m=[32m"width: 100%; padding: 5px; font-size: 1.5vw; background-color: rgba(244, 163, 0, 1); border: 0px;"[39m
-                        [33mtype[39m=[32m"button"[39m
-                      [36m>[39m
-                        [0mLearn more about our parent organization![0m
-                      [36m</button>[39m
-                    [36m</div>[39m
-                    [36m<div[39m
-                      [33mclass[39m=[32m"col"[39m
-                    [36m>[39m
-                      [36m<img[39m
-                        [33malt[39m=[32m"logo"[39m
-                        [33msrc[39m=[32m"GroupPicture.jpg"[39m
-                        [33mstyle[39m=[32m"width: 100%;"[39m
-                      [36m/>[39m
-                    [36m</div>[39m
-                  [36m</div>[39m
-                [36m</div>[39m
-              [36m</section>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mstyle[39m=[32m"background-color: rgb(224, 242, 253); margin-top: 0px; margin-bottom: 5vh; overflow: hidden;"[39m
-            [36m>[39m
-              [36m<section[39m
-                [33mid[39m=[32m"resources"[39m
-              [36m>[39m
-                [36m<h1[39m
-                  [33mstyle[39m=[32m"margin-top: 6vh; margin-bottom: 4vh;"[39m
-                [36m>[39m
-    ...
+                        [36m<div[39m
+                          [33mclass[39m=[32m"row"[39m
+                        [36m>[39m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"col"[39m
+                          [36m>[39m
+                            [36m<a[39m
+                              [33mhref[39m=[32m"https://www.instagram.com/acmwud/"[39m
+                              [33mrel[39m=[32m"noopener noreferrer"[39m
+                              [33mtarget[39m=[32m"_blank"[39m
+                            [36m>[39m
+                              [36m<svg[39m
+                                [33mcolor[39m=[32m"#4682B4"[39m
+                                [33mfill[39m=[32m"currentColor"[39m
+                                [33mheight[39m=[32m"5vw"[39m
+                                [33mstroke[39m=[32m"currentColor"[39m
+                                [33mstroke-width[39m=[32m"0"[39m
+                                [33mstyle[39m=[32m"color: rgb(70, 130, 180);"[39m
+                                [33mviewBox[39m=[32m"0 0 448 512"[39m
+                                [33mwidth[39m=[32m"5vw"[39m
+                                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                              [36m>[39m
+                                [36m<path[39m
+                                  [33md[39m=[32m"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"[39m
+                                [36m/>[39m
+                              [36m</svg>[39m
+                            [36m</a>[39m
+                          [36m</div>[39m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"col"[39m
+                            [33mstyle[39m=[32m"margin-left: 10vw;"[39m
+                          [36m>[39m
+                            [36m<a[39m
+                              [33mhref[39m=[32m"https://discord.gg/vbV3bDJvZq"[39m
+                              [33mrel[39m=[32m"noopener noreferrer"[39m
+                              [33mtarget[39m=[32m"_blank"[39m
+                            [36m>[39m
+                              [36m<svg[39m
+                                [33mcolor[39m=[32m"#4682B4"[39m
+                                [33mfill[39m=[32m"currentColor"[39m
+                                [33mheight[39m=[32m"5vw"[39m
+                                [33mstroke[39m=[32m"currentColor"[39m
+                                [33mstroke-width[39m=[32m"0"[39m
+                                [33mstyle[39m=[32m"color: rgb(70, 130, 180);"[39m
+                                [33mviewBox[39m=[32m"0 0 640 512"[39m
+                                [33mwidth[39m=[32m"5vw"[39m
+                                [33mxmlns[39m=[32m"http://ww...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -206,12 +179,12 @@ All files            |   16.66 |        0 |   33.33 |   16.66 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |   33.33 |      100 |   33.33 |   33.33 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      20 |      100 |      20 |      20 | 206-400           
+  Home.tsx           |      20 |      100 |      20 |      20 | 229-423           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.972 s
+Time:        3.071 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
