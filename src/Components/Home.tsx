@@ -3,7 +3,7 @@ import '../App.css';
 
 import { Link } from 'react-scroll';
 // import { Link } from 'react-router-dom';
-import {FaInstagram, FaLinkedin} from 'react-icons/fa'
+import {FaInstagram, FaLinkedin, FaDiscord} from 'react-icons/fa'
 
 //import logo from "./Images/Logos/logo.png"
 import whiteLogo from "./Images/Logos/whiteLogo.png"
@@ -17,6 +17,7 @@ import JoyPicture from "./Images/EboardPictures/JoyPicture.jpg";
 import OlivePicture from "./Images/EboardPictures/OlivePicture.jpeg";
 import HannaPicture from "./Images/EboardPictures/HannaPicture.jpeg";
 import StephaniePicture from "./Images/EboardPictures/StephaniePicture.jpg";
+import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
@@ -162,14 +163,36 @@ function Home() {
                       <p>Join us for snacks and conversation as we unwind from the semester. Snacks on us!</p>
                     </Row> */}
 
-                    <Row>
+                    {/* <Row>
                       <h2><u>Hot Cocoa + Study Session!</u></h2>
                       <h3>Date: Monday, 12/9 at 5:30p.m.</h3>
                       <h3>Location: Memorial Hall, Room 049</h3>
                       <p>Come out to our last meeting of the semester to grab some hot chocolate and study with us before finals!</p>
-                    </Row>
+                    </Row> */}
 
-                    
+                    <p>Check back in the Spring semester! We have a lot of fun events planned!</p>
+                    <p>In the mean time, feel free to connect with through Instagram or Discord!</p>
+
+                    <br></br>
+                    <br></br>
+
+                   
+                    <div style={{display: "flex", justifyContent: "center", alignContent: "left"}}>
+                      <Container style={{display: "flex", justifyContent: "center", alignContent: "center", width: "70vw"}}>
+                        <Row>
+                          <Col>
+                            <a href="https://www.instagram.com/acmwud/" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram size="5vw" color="#4682B4" />
+                            </a>
+                          </Col>
+                          <Col style={{marginLeft: "10vw"}}>
+                            <a href="https://discord.gg/vbV3bDJvZq" target="_blank" rel="noopener noreferrer">
+                              <FaDiscord size="5vw" color="#4682B4" />
+                            </a>
+                          </Col>
+                        </Row>
+                      </Container>
+                    </div>
 
 
 
@@ -367,7 +390,7 @@ function Home() {
               <Row>
                 <Col>
                   <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>LeetCode Study Group</h2>
-                        <h3 style={{fontSize: "1vw"}}>Saturdays at 1:00p.m. in Morris Library</h3>
+                        <h3 style={{fontSize: "1vw"}}>Time and Location TBA for Spring 2025 Semester</h3>
                         <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Come study for technical interview with us! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
                         
                         <br></br>
@@ -440,18 +463,21 @@ function Home() {
             <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={JoyPicture} githubURL='https://github.com/joymmw' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
 
             <EBoardCard name='Isha Kashif' position='Secretary (Spring)' image={IshaPicture} githubURL='https://github.com/ishakashif' linkedinURL='https://www.linkedin.com/in/ishakashif/' ></EBoardCard>
+            
+            <EBoardCard name='Ujjwala Pothula' position='Treasurer' image={UjjwalaPicture} githubURL='https://github.com/ujjwalaa7' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
 
           </div>
 
           <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
 
-            <EBoardCard name='Ujjwala Pothula' position='Treasurer' image={UjjwalaPicture} githubURL='https://github.com/ujjwalaa7' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
-
             <EBoardCard name='Jasmyn Navarro' position='Mentorship Coordinator' image={JasmynPicture} githubURL='https://github.com/JayNavarro' linkedinURL='https://www.linkedin.com/in/jasmyn-navarro/' ></EBoardCard>
 
             <EBoardCard name='Olivia Karney' position='Website Manager' image={OliviaPicture} githubURL='https://github.com/okarney' linkedinURL='https://www.linkedin.com/in/olivia-karney/' ></EBoardCard>
             
-            <EBoardCard name='Hanna Gebrel' position='Social Media Chair' image={HannaPicture} githubURL='' linkedinURL='' ></EBoardCard>
+            <EBoardCard name='Hanna Gebrel' position='Social Media Chair' image={HannaPicture} githubURL='' linkedinURL='https://www.linkedin.com/in/hannagebrel/' ></EBoardCard>
+
+            <EBoardCard name='Kathleen Higgins' position='Freshmen Representative' image={KathleenPicture} githubURL='https://github.com/kathigg' linkedinURL='https://www.linkedin.com/in/kathleenhiggins2028/' ></EBoardCard>
+
 
           </div>
           <br></br>
@@ -465,6 +491,9 @@ function Home() {
             </a>
             <a href="https://www.instagram.com/acmwud/" target="_blank" rel="noopener noreferrer">
               <FaInstagram size="2.6vw" color="white" />
+            </a>
+            <a href="https://discord.gg/vbV3bDJvZq" target="_blank" rel="noopener noreferrer">
+              <FaDiscord size="2.6vw" color="white" />
             </a>
 
           </div>
