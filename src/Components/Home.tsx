@@ -170,14 +170,21 @@ function Home() {
                       <p>Come out to our last meeting of the semester to grab some hot chocolate and study with us before finals!</p>
                     </Row> */}
 
-                    <p>Check back in the Spring semester! We have a lot of fun events planned!</p>
-                    <p>In the mean time, feel free to connect with through Instagram or Discord!</p>
+                    {/* <p>Check back in the Spring semester! We have a lot of fun events planned!</p>
+                    <p>In the mean time, feel free to connect with through Instagram or Discord!</p> */}
 
+
+                    <h2><u>Spring Involvement Fair </u></h2>
+                      <h3>Date: Monday, 2/3 from 3-6p.m.</h3>
+                      <h3>Location: Perkins Student Center</h3>
+                      <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p>
+                    
+                    
                     <br></br>
                     <br></br>
 
                    
-                    <div style={{display: "flex", justifyContent: "center", alignContent: "left"}}>
+                    <div style={{display: "flex", justifyContent: "center", alignContent: "center"}}>
                       <Container style={{display: "flex", justifyContent: "center", alignContent: "center", width: "70vw"}}>
                         <Row>
                           <Col>
@@ -185,11 +192,20 @@ function Home() {
                             <FaInstagram size="5vw" color="#4682B4" />
                             </a>
                           </Col>
-                          <Col style={{marginLeft: "10vw"}}>
+                          <Col style={{display:"flex", justifyContent:"center", alignContent: "center"}}>
+                            <Button 
+                              style={{width: "10.5vw", padding: "1vh", fontSize: "1.1vw", marginLeft: "10vw", backgroundColor: "#4682B4", border: "0px", color: "white"}} 
+                              onClick={() => window.location.href = "https://forms.gle/sdKo1PJ4JWxFqqfo7"}
+                              >
+                              Join our email list!
+                            </Button>
+                          </Col>
+                          <Col style={{marginLeft: "9.5vw"}}>
                             <a href="https://discord.gg/vbV3bDJvZq" target="_blank" rel="noopener noreferrer">
                               <FaDiscord size="5vw" color="#4682B4" />
                             </a>
                           </Col>
+                          
                         </Row>
                       </Container>
                     </div>
