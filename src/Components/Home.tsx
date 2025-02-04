@@ -174,11 +174,59 @@ function Home() {
                     <p>In the mean time, feel free to connect with through Instagram or Discord!</p> */}
 
 
-                    <h2><u>Spring Involvement Fair </u></h2>
+                    {/* <h2><u>Spring Involvement Fair </u></h2>
                       <h3>Date: Monday, 2/3 from 3-6p.m.</h3>
                       <h3>Location: Perkins Student Center</h3>
                       <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p>
+                     */}
+
+                    <h2><u>LinkedIn + Resume Review! </u></h2>
+                    <h3>Date: Monday, 2/10 at 5p.m.</h3>
+                    <h3>Location: Gore 310</h3>
+                    {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
+                  
+                    <br></br>
+
+                    <h2><u>Mentorship Check-In </u></h2>
+                    <h3>Date: Monday, 2/24 at 5p.m.</h3>
+                    <h3>Location: Gore 310</h3>
+                    {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
+                  
+                    <br></br>
+
+                    <h2><u>Spring Event with Rewriting the Code</u></h2>
+                    <h3>Date: Monday, 3/10 at 5p.m.</h3>
+                    <h3>Location: Gore 310</h3>
+                    {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
+                  
+                    <br></br>
+
+                    <h2><u>Mentorship Check-In </u></h2>
+                    <h3>Date: Monday, 2/24 at 5p.m.</h3>
+                    <h3>Location: Gore 310</h3>
+                    {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
+                  
+                    <br></br>
+
+                    <h2><u>Registration Help</u></h2>
+                    <h3>Date: Monday, 4/7 at 5p.m.</h3>
+                    <h3>Location: Gore 310</h3>
+                    {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
+                  
+                    <br></br>
+
+                    <h2><u>Snacks + Study Session </u></h2>
+                    <h3>Date: Monday, 4/24 at 5p.m.</h3>
+                    <h3>Location: Gore 310</h3>
+                    {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
                     
+                    <br></br>
+
+                    <h2><u>Sean's House</u></h2>
+                    <h3>Date: Monday, 5/1 at 5:30p.m.</h3>
+                    <h3>Location: Sean's House (136 W Main Street, Newark, DE 19711)</h3>
+                    {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
+                  
                     
                     <br></br>
                     <br></br>
