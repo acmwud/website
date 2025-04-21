@@ -185,7 +185,7 @@ function Home() {
                     <h3>Location: Gore 310</h3> */}
                     {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
                   
-                    <br></br>
+                    {/* <br></br> */}
 
                     {/* <h2><u>Mentorship Check-In </u></h2>
                     <h3>Date: Monday, 2/24 at 5p.m.</h3>
