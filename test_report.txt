@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (168 ms)
+  ✕ renders learn react link (162 ms)
 
   ● renders learn react link
 
@@ -89,17 +89,15 @@ FAIL src/App.test.tsx
                     [33mclass[39m=[32m"container"[39m
                   [36m>[39m
                     [36m<h2>[39m
-                      [36m<u>[39m
-                        [0mSnacks + Study Session [0m
-                      [36m</u>[39m
+                      [0mWe will be back in Fall 2025 to host more exciting events![0m
                     [36m</h2>[39m
-                    [36m<h3>[39m
-                      [0mDate: Monday, 4/21 at 5p.m.[0m
-                    [36m</h3>[39m
-                    [36m<h3>[39m
-                      [0mLocation: Gore 310[0m
-                    [36m</h3>[39m
+                    [36m<h2>[39m
+                      [0mIn the meantime, feel free to connect with us over email, Discord, or Instagram![0m
+                    [36m</h2>[39m
                     [36m<br />[39m
+                    [36m<h2>[39m
+                      [0mHappy Summer![0m
+                    [36m</h2>[39m
                     [36m<br />[39m
                     [36m<br />[39m
                     [36m<div[39m
@@ -153,8 +151,7 @@ FAIL src/App.test.tsx
                             [33mclass[39m=[32m"col"[39m
                             [33mstyle[39m=[32m"margin-left: 9.5vw;"[39m
                           [36m>[39m
-                            [36m<a[39m
-    ...
+                         ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -184,12 +181,12 @@ All files            |   15.78 |        0 |      30 |   15.78 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |   28.57 |      100 |   28.57 |   28.57 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |   16.66 |      100 |   16.66 |   16.66 | 242-483           
+  Home.tsx           |   16.66 |      100 |   16.66 |   16.66 | 246-487           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        3.015 s
+Time:        2.992 s
 Ran all test suites.
 [0;33mOne of your dependencies, babel-preset-react-app, is importing the
 "@babel/plugin-proposal-private-property-in-object" package without
