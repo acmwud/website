@@ -222,11 +222,7 @@ function Home() {
                     
                     <br></br>
 
-                    {/* <h2><u>Sean's House</u></h2>
-                    <h3>Date: Monday, 5/1 at 5:30p.m.</h3>
-                    <h3>Location: Sean's House (136 W Main Street, Newark, DE 19711)</h3> */}
-                    {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
-                  
+                
                     
                     <br></br>
                     <br></br>
