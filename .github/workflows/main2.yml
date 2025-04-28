@@ -20,6 +20,7 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "npm"
+              if: ${{ hashFiles('package-lock.json') != '' }}
             - id: get-repo-values
               run: |
                   url=https://$(echo "${{github.repository}}" | sed "s/\//.github.io\//")
