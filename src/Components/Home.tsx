@@ -215,12 +215,16 @@ function Home() {
                   
                     {/* <br></br> */}
 
-                    <h2><u>Snacks + Study Session </u></h2>
+                    {/* <h2><u>Snacks + Study Session </u></h2>
                     <h3>Date: Monday, 4/21 at 5p.m.</h3>
-                    <h3>Location: Gore 310</h3>
+                    <h3>Location: Gore 310</h3> */}
                     {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
                     
+                    <h2>We will be back in Fall 2025 to host more exciting events!</h2>
+                    <h2>In the meantime, feel free to connect with us over email, Discord, or Instagram!</h2>
                     <br></br>
+                    <h2>Happy Summer!</h2>
+
 
                 
                     
