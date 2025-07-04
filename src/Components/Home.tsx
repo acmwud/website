@@ -1,22 +1,16 @@
-import { Button, Col, Container, Placeholder, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import '../App.css';
 
 import { Link } from 'react-scroll';
 // import { Link } from 'react-router-dom';
-import {FaInstagram, FaLinkedin, FaDiscord} from 'react-icons/fa'
+import {FaInstagram, FaDiscord} from 'react-icons/fa'
 
 //import logo from "./Images/Logos/logo.png"
 import whiteLogo from "./Images/Logos/whiteLogo.png"
 import {EBoardCard} from './Eboard';
 
 import OliviaPicture from "./Images/EboardPictures/OliviaPicture.png"
-import JasmynPicture from "./Images/EboardPictures/JasmynPicture.jpeg"
 import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
-import IshaPicture from "./Images/EboardPictures/IshaPicture.jpg"
-import JoyPicture from "./Images/EboardPictures/JoyPicture.jpg";
-import OlivePicture from "./Images/EboardPictures/OlivePicture.jpeg";
-import HannaPicture from "./Images/EboardPictures/HannaPicture.jpeg";
-import StephaniePicture from "./Images/EboardPictures/StephaniePicture.jpg";
 import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
