@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Placeholder, Row } from 'react-bootstrap';
 import '../App.css';
 
 import { Link } from 'react-scroll';
@@ -21,7 +21,7 @@ import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
-// import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
+import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
 // import { link } from 'fs';
 
 function Home() {
@@ -298,44 +298,7 @@ function Home() {
 
               </Col>
             </Row>
-            {/* <Row>
-              <h2 style={{marginTop: "6vh", fontSize: "2.0vw"}}><u>Get Involved</u></h2>
-              <Row>
-                <Col>
-                  <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>LeetCode Study Group</h2>
-                        <h3 style={{fontSize: "1vw"}}>Saturdays at 1:00p.m. in Morris Library</h3>
-                        <h3 style={{fontSize: "1vw"}}></h3>
-                        <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Come study for technical interview with us! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
-                        <Button 
-                          style={{padding: "2.5%", marginBottom: "1vh",  fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
-                          onClick={() => window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdYe-AiS-zFnvEtTp61X0O0yPFjZBzdEpYzegCO6PcyKr1JAQ/viewform"}
-                          >
-                          Study Group Interest Form!
-                          </Button>
-                        <br></br>
-                        <Button 
-                          style={{padding: "2.5%", fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
-                          onClick={() => window.location.href = "https://www.when2meet.com/?26513393-VwbRE"}
-                          >
-                          Study Group Availability!
-                        </Button>
-                </Col>
-
-                <Col>
-                  <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>Mentorship Program</h2>
-                  <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Are you and underclassman looking for advice? Join our mentorship program to learn more about classes, internships opportunities, careers, grad school, and more!</p>
-                  <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Are you and upperclassman or grad student who wants to help other women in tech? Become a mentor in our mentorship program to share your experience and help other women tech learn about how they can succeed in tech too!</p>
-
-                  <Button 
-                    style={{padding: "2.5%", fontSize: "1vw", backgroundColor: "#4682B4", border: "0px", borderRadius: "30px", color: "white"}} 
-                    onClick={() => window.location.href = "https://www.when2meet.com/?26513393-VwbRE"}
-                    >
-                    Interest Form
-                  </Button>
-
-                </Col>
-              </Row>
-            </Row> */}
+            
           </Container>
           </section>
           </div>
@@ -507,40 +470,29 @@ function Home() {
           </div>
 
 
-          
-
-            {/* <div style={{backgroundColor: "#00309B", marginTop: 0, overflow: "hidden"}}>hello</div>
-            <div style={{backgroundColor: "#E0F2FD", marginTop: 0, overflow: "hidden"}}>hello</div> */}
-            {/* <div style={{backgroundColor: "#F5F5F5", marginTop: 0, overflow: "hidden"}}>hello</div>
-            <div style={{backgroundColor: "#F5F5F5", marginTop: 0, overflow: "hidden"}}>hello</div> */}
-
 
           <div style={{backgroundColor: "white", marginTop: "0%", overflow: "hidden"}}>
           <section id="eboard">
           <h1 style={{marginTop: "6vh"}}>E-Board</h1>
-          <span style={{display: "flex", justifyContent: "center", fontSize: "1.3vw", marginBottom: "2vh"}}><i>2024 - 2025</i></span>
+          <span style={{display: "flex", justifyContent: "center", fontSize: "1.3vw", marginBottom: "2vh"}}><i>2025 - 2026</i></span>
           <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 0}}>
-            <EBoardCard name='Olive Odida' position='President' image={OlivePicture} githubURL='https://github.com/oodida' linkedinURL='https://www.linkedin.com/in/olive-odida/' ></EBoardCard>
-
-            <EBoardCard name='Stephanie Park' position='Vice President' image={StephaniePicture} githubURL='https://github.com/stephaaniepark' linkedinURL='https://www.linkedin.com/in/stephanie-park-12643a323/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' ></EBoardCard>
-
-            <EBoardCard name='Joy Mwaria' position='Secretary (Fall)' image={JoyPicture} githubURL='https://github.com/joymmw' linkedinURL='https://www.linkedin.com/in/joymwaria/' ></EBoardCard>
-
-            <EBoardCard name='Isha Kashif' position='Secretary (Spring)' image={IshaPicture} githubURL='https://github.com/ishakashif' linkedinURL='https://www.linkedin.com/in/ishakashif/' ></EBoardCard>
+            <EBoardCard name='Olivia Karney' position='President' image={OliviaPicture} githubURL='https://github.com/okarney' linkedinURL='https://www.linkedin.com/in/olivia-karney/' ></EBoardCard>
             
-            <EBoardCard name='Ujjwala Pothula' position='Treasurer' image={UjjwalaPicture} githubURL='https://github.com/ujjwalaa7' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
+            <EBoardCard name='Kathleen Higgins' position='Vice President' image={KathleenPicture} githubURL='https://github.com/kathigg' linkedinURL='https://www.linkedin.com/in/kathleenhiggins2028/' ></EBoardCard>
+            
+            <EBoardCard name='Ujjwala Pothula' position='Treasurer/Secretary' image={UjjwalaPicture} githubURL='https://github.com/ujjwalaa7' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
+
+            <EBoardCard name='Aastha Desai' position='Mentorship Coordinator' image={placeHolder} githubURL='https://github.com' linkedinURL='https://www.linkedin.com' ></EBoardCard>
+
+            <EBoardCard name='Brishna Nazari' position='Website Manager' image={placeHolder} githubURL='https://github.com' linkedinURL='https://www.linkedin.com/in/brishna-nazari32/' ></EBoardCard>
 
           </div>
 
           <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
 
-            <EBoardCard name='Jasmyn Navarro' position='Mentorship Coordinator' image={JasmynPicture} githubURL='https://github.com/JayNavarro' linkedinURL='https://www.linkedin.com/in/jasmyn-navarro/' ></EBoardCard>
-
-            <EBoardCard name='Olivia Karney' position='Website Manager' image={OliviaPicture} githubURL='https://github.com/okarney' linkedinURL='https://www.linkedin.com/in/olivia-karney/' ></EBoardCard>
             
-            <EBoardCard name='Hanna Gebrel' position='Social Media Chair' image={HannaPicture} githubURL='' linkedinURL='https://www.linkedin.com/in/hannagebrel/' ></EBoardCard>
+            {/* <EBoardCard name='Hanna Gebrel' position='Social Media Chair' image={HannaPicture} githubURL='' linkedinURL='https://www.linkedin.com/in/hannagebrel/' ></EBoardCard> */}
 
-            <EBoardCard name='Kathleen Higgins' position='Freshmen Representative' image={KathleenPicture} githubURL='https://github.com/kathigg' linkedinURL='https://www.linkedin.com/in/kathleenhiggins2028/' ></EBoardCard>
 
 
           </div>
@@ -550,9 +502,9 @@ function Home() {
           </section>
 
           <div style={{backgroundColor: "#0639a7", padding: "1em", display: "flex", justifyContent: "center", gap: "3vw"}}>
-            <a href="https://www.linkedin.com/groups/8936004/" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://www.linkedin.com/groups/8936004/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size="2.5vw" color="white" />
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/acmwud/" target="_blank" rel="noopener noreferrer">
               <FaInstagram size="2.6vw" color="white" />
             </a>
