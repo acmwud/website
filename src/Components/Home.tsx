@@ -17,7 +17,7 @@ import BrishnaPicture from "./Images/EboardPictures/BrishnaPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
-import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
+//import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
 // import { link } from 'fs';
 
 function Home() {
