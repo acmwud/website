@@ -11,7 +11,9 @@ import {EBoardCard} from './Eboard';
 
 import OliviaPicture from "./Images/EboardPictures/OliviaPicture.png"
 import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
-import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg";
+import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg"
+import AasthaPicture from "./Images/EboardPictures/AasthaPicture.jpg"
+import BrishnaPicture from "./Images/EboardPictures/BrishnaPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
 
@@ -476,9 +478,9 @@ function Home() {
             
             <EBoardCard name='Ujjwala Pothula' position='Treasurer/Secretary' image={UjjwalaPicture} githubURL='https://github.com/ujjwalaa7' linkedinURL='https://www.linkedin.com/in/ujjwalap16/' ></EBoardCard>
 
-            <EBoardCard name='Aastha Desai' position='Mentorship Coordinator' image={placeHolder} githubURL='https://github.com' linkedinURL='https://www.linkedin.com' ></EBoardCard>
+            <EBoardCard name='Aastha Desai' position='Mentorship Coordinator' image={AasthaPicture} githubURL='https://github.com/Aastha-Desai' linkedinURL='https://www.linkedin.com/in/aastha-desaii' ></EBoardCard>
 
-            <EBoardCard name='Brishna Nazari' position='Website Manager' image={placeHolder} githubURL='https://github.com' linkedinURL='https://www.linkedin.com/in/brishna-nazari32/' ></EBoardCard>
+            <EBoardCard name='Brishna Nazari' position='Website Manager' image={BrishnaPicture} githubURL='https://github.com/BrishnaN' linkedinURL='https://www.linkedin.com/in/brishna-nazari32/' ></EBoardCard>
 
           </div>
 
