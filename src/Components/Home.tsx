@@ -312,8 +312,8 @@ function Home() {
                   <div> 
                       <h3>Find Internship Opportunities</h3>
 
-                      <a href="https://github.com/SimplifyJobs/Summer2025-Internships"><li>Summer 2025 Tech Internships by Pitt CSC</li></a>
-                      <a href="https://github.com/Ouckah/Summer2025-Internships?tab=readme-ov-file"><li>Summer 2025 Tech Internships by Ouckah & CSCareers</li></a>
+                      <a href="https://github.com/SimplifyJobs/Summer2026-Internships"><li>Summer 2026 Tech Internships by Pitt CSC</li></a>
+                      <a href="https://github.com/vanshb03/Summer2026-Internships?tab=readme-ov-file"><li>Summer 2026 Tech Internships by Ouckah & CSCareers</li></a>
                       <a href="https://simplify.jobs/internships"><li>Simplify</li></a>
                       <a href="https://www.wayup.com/"><li>WayUp</li></a>
                       <a href="https://ripplematch.com/?utm_source=Google&utm_medium=organic_social&utm_campaign=growth_google_ad&utm_content=signup_link&utm_term=null&r=GtE7Qf&utm_source=Google&utm_medium=cpc&utm_campaign=LD%7CB2C%7CBrand&utm_term=ripplematch&gad_source=1&gclid=CjwKCAjw4f6zBhBVEiwATEHFVhGPNn5xNv4R3dewM6ccs8y9DiMOR0_he2l5q9t8zK9IXRvUFI2dFRoCssIQAvD_BwE"><li>RippleMatch</li></a>
@@ -411,7 +411,7 @@ function Home() {
           <Container>
               
               <Row>
-                <Col>
+              {/* <Col>
                   <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>LeetCode Study Group</h2>
                         <h3 style={{fontSize: "1vw"}}>Time and Location TBA for Spring 2025 Semester</h3>
                         <p style={{fontSize: "0.9vw", marginRight: "1vw"}}>Come study for technical interview with us! Just bring yourself and your laptop and we'll choose 1-2 LeetCode questions to work on as a group.</p>
@@ -434,7 +434,7 @@ function Home() {
                             Study Group Availability
                           </Button>
                         </div>
-                </Col>
+                </Col>*/}
 
                 <Col>
                   <h2 style={{marginTop: "1vh", fontSize: "1.3vw"}}>Mentorship Program</h2>
