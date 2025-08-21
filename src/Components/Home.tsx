@@ -12,7 +12,7 @@ import {EBoardCard} from './Eboard';
 import OliviaPicture from "./Images/EboardPictures/OliviaPicture.png"
 import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
 import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg"
-import AasthaPicture from "./Images/EboardPictures/AasthaPicture.jpg"
+import AasthaPicture from "./Images/EboardPictures/AasthaPicture3.jpg"
 import BrishnaPicture from "./Images/EboardPictures/BrishnaPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
@@ -312,8 +312,10 @@ function Home() {
                   <div> 
                       <h3>Find Internship Opportunities</h3>
 
-                      <a href="https://github.com/SimplifyJobs/Summer2026-Internships"><li>Summer 2026 Tech Internships by Pitt CSC</li></a>
-                      <a href="https://github.com/vanshb03/Summer2026-Internships?tab=readme-ov-file"><li>Summer 2026 Tech Internships by Ouckah & CSCareers</li></a>
+                      
+                      <a href="https://github.com/SimplifyJobs/Summer2026-Internships?files=1"><li>Summer 2026 Tech Internships by Pitt CSC & Simplify</li></a>
+                      <a href="https://github.com/vanshb03/Summer2026-Internships"><li>Summer 2026 Tech Internships by Vansh & Ouckah</li></a>
+                      <a href="https://github.com/speedyapply/2026-SWE-College-Jobs/blob/main/NEW_GRAD_USA.md"><li>2026 USA SWE New Graduate Positions</li></a>
                       <a href="https://simplify.jobs/internships"><li>Simplify</li></a>
                       <a href="https://www.wayup.com/"><li>WayUp</li></a>
                       <a href="https://ripplematch.com/?utm_source=Google&utm_medium=organic_social&utm_campaign=growth_google_ad&utm_content=signup_link&utm_term=null&r=GtE7Qf&utm_source=Google&utm_medium=cpc&utm_campaign=LD%7CB2C%7CBrand&utm_term=ripplematch&gad_source=1&gclid=CjwKCAjw4f6zBhBVEiwATEHFVhGPNn5xNv4R3dewM6ccs8y9DiMOR0_he2l5q9t8zK9IXRvUFI2dFRoCssIQAvD_BwE"><li>RippleMatch</li></a>
