@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Placeholder, Row } from 'react-bootstrap';
 import '../App.css';
 
 import { Link } from 'react-scroll';
@@ -13,11 +13,11 @@ import OliviaPicture from "./Images/EboardPictures/OliviaPicture.png"
 import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
 import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg"
 import AasthaPicture from "./Images/EboardPictures/AasthaPicture3.jpg"
-import BrishnaPicture from "./Images/EboardPictures/BrishnaPicture.jpeg";
+import BrishnaPicture from "./Images/EboardPictures/BrishnaPicture.jpeg"
+import KhadijaPicture from "./Images/EboardPictures/KhadijaPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
-
-//import placeHolder from "./Images/EboardPictures/placeholderPic.webp"
+//import placeHolder from "./Images/EboardPictures/placeholderPic.webp
 // import { link } from 'fs';
 
 function Home() {
@@ -469,11 +469,38 @@ function Home() {
 
 
 
-          <div style={{backgroundColor: "white", marginTop: "0%", overflow: "hidden"}}>
+          {/*<div style={{backgroundColor: "white", marginTop: "0%", overflow: "hidden"}}>
           <section id="eboard">
           <h1 style={{marginTop: "6vh"}}>E-Board</h1>
           <span style={{display: "flex", justifyContent: "center", fontSize: "1.3vw", marginBottom: "2vh"}}><i>2025 - 2026</i></span>
-          <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 0}}>
+          <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", marginTop: 0}}>*/}
+         
+  
+    <div style={{ backgroundColor: "white", marginTop: "0%", overflow: "hidden" }}>
+      <section id="eboard">
+        <h1 style={{ marginTop: "6vh", textAlign: "center" }}>E-Board</h1>
+        <span
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            fontSize: "1.3vw",
+            marginBottom: "2vh",
+          }}
+        >
+          <i>2025 - 2026</i>
+        </span>
+
+        {/* Container for all cards */}
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap", // allows wrapping into multiple rows
+            justifyContent: "center",
+            gap: "20px", // spacing between cards
+            margin: "0 auto",
+            maxWidth: "1200px",
+          }}
+        >
             <EBoardCard name='Olivia Karney' position='President' image={OliviaPicture} githubURL='https://github.com/okarney' linkedinURL='https://www.linkedin.com/in/olivia-karney/' ></EBoardCard>
             
             <EBoardCard name='Kathleen Higgins' position='Vice President' image={KathleenPicture} githubURL='https://github.com/kathigg' linkedinURL='https://www.linkedin.com/in/kathleenhiggins2028/' ></EBoardCard>
@@ -483,14 +510,15 @@ function Home() {
             <EBoardCard name='Aastha Desai' position='Mentorship Coordinator' image={AasthaPicture} githubURL='https://github.com/Aastha-Desai' linkedinURL='https://www.linkedin.com/in/aastha-desaii' ></EBoardCard>
 
             <EBoardCard name='Brishna Nazari' position='Website Manager' image={BrishnaPicture} githubURL='https://github.com/BrishnaN' linkedinURL='https://www.linkedin.com/in/brishna-nazari32/' ></EBoardCard>
+            <EBoardCard name='Khadija Mohammadi' position='Social Media Chair' image={KhadijaPicture} githubURL='https://github.com/rkhadija1' linkedinURL='https://www.linkedin.com/in/khadija-mohammadi' ></EBoardCard>
+
 
           </div>
 
           <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center"}}>
 
             
-            {/* <EBoardCard name='Hanna Gebrel' position='Social Media Chair' image={HannaPicture} githubURL='' linkedinURL='https://www.linkedin.com/in/hannagebrel/' ></EBoardCard> */}
-
+            
 
 
           </div>
