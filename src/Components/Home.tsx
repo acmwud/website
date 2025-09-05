@@ -1,4 +1,4 @@
-import { Button, Col, Container, Placeholder, Row, Card } from 'react-bootstrap';
+import { Button, Col, Container, Row, Card } from 'react-bootstrap';
 import '../App.css';
 
 import { Link } from 'react-scroll';
