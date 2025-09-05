@@ -1,4 +1,4 @@
-import { Button, Col, Container, Placeholder, Row } from 'react-bootstrap';
+import { Button, Col, Container, Placeholder, Row, Card } from 'react-bootstrap';
 import '../App.css';
 
 import { Link } from 'react-scroll';
@@ -216,10 +216,55 @@ function Home() {
                     <h3>Location: Gore 310</h3> */}
                     {/* <p>Stop by our table to learn about our club and events we are planning for the upcoming semester! Feel free to join our email list or discord and follow us on instagram!</p> */}
                     
-                    <h2>We will be back in Fall 2025 to host more exciting events!</h2>
+                    {/*<h2>We will be back in Fall 2025 to host more exciting events!</h2>
                     <h2>In the meantime, feel free to connect with us over email, Discord, or Instagram!</h2>
                     <br></br>
-                    <h2>Happy Summer!</h2>
+                    <h2>Happy Summer!</h2>*/}
+
+<Row className="justify-content-center mt-4">
+  <Col md={10} lg={8}>
+    <Card style={{ borderRadius: "15px", boxShadow: "0 4px 15px rgba(0,0,0,0.2)" }}>
+      <Card.Body>
+        <Card.Title className="text-center mb-3" style={{ fontSize: "2rem", fontWeight: "bold" }}>
+          🎉 ACM-W Kickoff Meeting 🎉
+        </Card.Title>
+        
+        <Card.Subtitle className="text-center text-muted mb-3">
+          Monday, September 8th · 6:30 PM <br />
+          Ewing Hall, Room 204
+        </Card.Subtitle>
+
+        <Card.Text className="text-center">
+          Start the semester with ACM-W! 🍩  
+          Join us for a fun and casual kickoff filled with donuts, connections, and opportunities.
+        </Card.Text>
+
+        <ul style={{ listStyleType: "none", paddingLeft: "0", fontSize: "1.1rem" }}>
+          <li>🤝 Meet ACM-W members and officers</li>
+          <li>📅 Learn about upcoming events & opportunities</li>
+          <li>💡 Share your ideas for the semester</li>
+          <li>🍩 Enjoy free donuts while connecting with peers</li>
+        </ul>
+
+        {/*<div className="d-flex flex-column align-items-center mt-4">
+          <Button
+            style={{ width: "80%", marginBottom: "1vh", fontSize: "1.2rem", backgroundColor: "#4682B4", border: "0px" }}
+            onClick={() => window.location.href = "https://www.instagram.com/acmwud/"}
+          >
+            📸 Follow us on Instagram
+          </Button>
+
+          <Button
+            style={{ width: "80%", fontSize: "1.2rem", backgroundColor: "#4682B4", border: "0px" }}
+            onClick={() => window.location.href = "https://forms.gle/sdKo1PJ4JWxFqqfo7"}
+          >
+            ✉️ Join our Email List
+          </Button>
+        </div>*/}
+      </Card.Body>
+    </Card>
+  </Col>
+</Row>
 
 
                 
