@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (129 ms)
+  ✕ renders learn react link (145 ms)
 
   ● renders learn react link
 
@@ -88,16 +88,57 @@ FAIL src/App.test.tsx
                   [36m<div[39m
                     [33mclass[39m=[32m"container"[39m
                   [36m>[39m
-                    [36m<h2>[39m
-                      [0mWe will be back in Fall 2025 to host more exciting events![0m
-                    [36m</h2>[39m
-                    [36m<h2>[39m
-                      [0mIn the meantime, feel free to connect with us over email, Discord, or Instagram![0m
-                    [36m</h2>[39m
-                    [36m<br />[39m
-                    [36m<h2>[39m
-                      [0mHappy Summer![0m
-                    [36m</h2>[39m
+                    [36m<div[39m
+                      [33mclass[39m=[32m"justify-content-center mt-4 row"[39m
+                    [36m>[39m
+                      [36m<div[39m
+                        [33mclass[39m=[32m"col-lg-8 col-md-10"[39m
+                      [36m>[39m
+                        [36m<div[39m
+                          [33mclass[39m=[32m"card"[39m
+                          [33mstyle[39m=[32m"border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);"[39m
+                        [36m>[39m
+                          [36m<div[39m
+                            [33mclass[39m=[32m"card-body"[39m
+                          [36m>[39m
+                            [36m<div[39m
+                              [33mclass[39m=[32m"text-center mb-3 card-title h5"[39m
+                              [33mstyle[39m=[32m"font-size: 2rem; font-weight: bold;"[39m
+                            [36m>[39m
+                              [0m🎉 ACM-W Kickoff Meeting 🎉[0m
+                            [36m</div>[39m
+                            [36m<div[39m
+                              [33mclass[39m=[32m"text-center text-muted mb-3 card-subtitle h6"[39m
+                            [36m>[39m
+                              [0mMonday, September 8th · 6:30 PM [0m
+                              [36m<br />[39m
+                              [0mEwing Hall, Room 204[0m
+                            [36m</div>[39m
+                            [36m<p[39m
+                              [33mclass[39m=[32m"text-center card-text"[39m
+                            [36m>[39m
+                              [0mStart the semester with ACM-W! 🍩 Join us for a fun and casual kickoff filled with donuts, connections, and opportunities.[0m
+                            [36m</p>[39m
+                            [36m<ul[39m
+                              [33mstyle[39m=[32m"list-style-type: none; padding-left: 0px; font-size: 1.1rem;"[39m
+                            [36m>[39m
+                              [36m<li>[39m
+                                [0m🤝 Meet ACM-W members and officers[0m
+                              [36m</li>[39m
+                              [36m<li>[39m
+                                [0m📅 Learn about upcoming events & opportunities[0m
+                              [36m</li>[39m
+                              [36m<li>[39m
+                                [0m💡 Share your ideas for the semester[0m
+                              [36m</li>[39m
+                              [36m<li>[39m
+                                [0m🍩 Enjoy free donuts while connecting with peers[0m
+                              [36m</li>[39m
+                            [36m</ul>[39m
+                          [36m</div>[39m
+                        [36m</div>[39m
+                      [36m</div>[39m
+                    [36m</div>[39m
                     [36m<br />[39m
                     [36m<br />[39m
                     [36m<div[39m
@@ -127,31 +168,7 @@ FAIL src/App.test.tsx
                                 [33mstyle[39m=[32m"color: rgb(70, 130, 180);"[39m
                                 [33mviewBox[39m=[32m"0 0 448 512"[39m
                                 [33mwidth[39m=[32m"5vw"[39m
-                                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
-                              [36m>[39m
-                                [36m<path[39m
-                                  [33md[39m=[32m"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"[39m
-                                [36m/>[39m
-                              [36m</svg>[39m
-                            [36m</a>[39m
-                          [36m</div>[39m
-                          [36m<div[39m
-                            [33mclass[39m=[32m"col"[39m
-                            [33mstyle[39m=[32m"display: flex; justify-content: center; align-content: center;"[39m
-                          [36m>[39m
-                            [36m<button[39m
-                              [33mclass[39m=[32m"btn btn-primary"[39m
-                              [33mstyle[39m=[32m"width: 10.5vw; padding: 1vh; font-size: 1.1vw; margin-left: 10vw; background-color: rgb(70, 130, 180); border: 0px; color: white;"[39m
-                              [33mtype[39m=[32m"button"[39m
-                            [36m>[39m
-                              [0mJoin our email list![0m
-                            [36m</button>[39m
-                          [36m</div>[39m
-                          [36m<div[39m
-                            [33mclass[39m=[32m"col"[39m
-                            [33mstyle[39m=[32m"margin-left: 9.5vw;"[39m
-                          [36m>[39m
-                         ...
+                          ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -181,10 +198,10 @@ All files            |   17.64 |        0 |    37.5 |   17.64 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |      40 |      100 |      40 |      40 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      25 |      100 |      25 |      25 | 242-448           
+  Home.tsx           |      25 |      100 |      25 |      25 | 287-493           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.324 s
+Time:        2.5 s
 Ran all test suites.
