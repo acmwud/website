@@ -12,13 +12,8 @@ import {EBoardCard} from './Eboard';
 import OliviaPicture from "./Images/EboardPictures/OliviaPicture.png"
 import UjjwalaPicture from "./Images/EboardPictures/UjjwalaPicture.jpg"
 import KathleenPicture from "./Images/EboardPictures/KathleenPicture.jpeg"
-<<<<<<< HEAD
-import AasthaPicture from "./Images/EboardPictures/AasthaPicture3.jpg"
-import BrishnaPicture from "./Images/EboardPictures/BrishnaPicture.jpeg"
-=======
 import AasthaPicture from "./Images/EboardPictures/AasthaPicture.jpg"
 import BrishnaPicture from "./Images/EboardPictures/BrishnaPicture.jpg"
->>>>>>> 86372b1 (resume and linkdin event added)
 import KhadijaPicture from "./Images/EboardPictures/KhadijaPicture.jpeg";
 
 import GroupPicture from "./Images/ClubPictures/GroupPicture.jpg";
@@ -231,35 +226,16 @@ function Home() {
     <Card style={{ borderRadius: "15px", boxShadow: "0 4px 15px rgba(0,0,0,0.2)" }}>
       <Card.Body>
         <Card.Title className="text-center mb-3" style={{ fontSize: "2rem", fontWeight: "bold" }}>
-<<<<<<< HEAD
-          🎉 ACM-W Kickoff Meeting 🎉
-        </Card.Title>
-        
-        <Card.Subtitle className="text-center text-muted mb-3">
-          Monday, September 8th · 6:30 PM <br />
-=======
         ACM-W Resume & LinkedIn Workshop 
         </Card.Title>
         
         <Card.Subtitle className="text-center text-muted mb-3">
         Monday, September 22nd · 6:30 PM
          <br />
->>>>>>> 86372b1 (resume and linkdin event added)
           Ewing Hall, Room 204
         </Card.Subtitle>
 
         <Card.Text className="text-center">
-<<<<<<< HEAD
-          Start the semester with ACM-W! 🍩  
-          Join us for a fun and casual kickoff filled with donuts, connections, and opportunities.
-        </Card.Text>
-
-        <ul style={{ listStyleType: "none", paddingLeft: "0", fontSize: "1.1rem" }}>
-          <li>🤝 Meet ACM-W members and officers</li>
-          <li>📅 Learn about upcoming events & opportunities</li>
-          <li>💡 Share your ideas for the semester</li>
-          <li>🍩 Enjoy free donuts while connecting with peers</li>
-=======
         Level up your job search with ACM-W! 🚀 \n
         Join us for an interactive workshop where we'll cover how to make your resume and LinkedIn stand out.
         </Card.Text>
@@ -269,7 +245,6 @@ function Home() {
           <li>🔍 Learn how to craft an impactful LinkedIn profile</li>
           <li>💬 Discussion & peer review session – bring your drafts!</li>
           <li>🤝 Get feedback from peers and ACM-W officers</li>
->>>>>>> 86372b1 (resume and linkdin event added)
         </ul>
 
         {/*<div className="d-flex flex-column align-items-center mt-4">
