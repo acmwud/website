@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (145 ms)
+  ✕ renders learn react link (148 ms)
 
   ● renders learn react link
 
@@ -105,34 +105,34 @@ FAIL src/App.test.tsx
                               [33mclass[39m=[32m"text-center mb-3 card-title h5"[39m
                               [33mstyle[39m=[32m"font-size: 2rem; font-weight: bold;"[39m
                             [36m>[39m
-                              [0m🎉 ACM-W Kickoff Meeting 🎉[0m
+                              [0mACM-W Resume & LinkedIn Workshop[0m
                             [36m</div>[39m
                             [36m<div[39m
                               [33mclass[39m=[32m"text-center text-muted mb-3 card-subtitle h6"[39m
                             [36m>[39m
-                              [0mMonday, September 8th · 6:30 PM [0m
+                              [0mMonday, September 22nd · 6:30 PM[0m
                               [36m<br />[39m
                               [0mEwing Hall, Room 204[0m
                             [36m</div>[39m
                             [36m<p[39m
                               [33mclass[39m=[32m"text-center card-text"[39m
                             [36m>[39m
-                              [0mStart the semester with ACM-W! 🍩 Join us for a fun and casual kickoff filled with donuts, connections, and opportunities.[0m
+                              [0mLevel up your job search with ACM-W! 🚀 \n Join us for an interactive workshop where we'll cover how to make your resume and LinkedIn stand out.[0m
                             [36m</p>[39m
                             [36m<ul[39m
                               [33mstyle[39m=[32m"list-style-type: none; padding-left: 0px; font-size: 1.1rem;"[39m
                             [36m>[39m
                               [36m<li>[39m
-                                [0m🤝 Meet ACM-W members and officers[0m
+                                [0m📝 Tips on showcasing your skills and experience[0m
                               [36m</li>[39m
                               [36m<li>[39m
-                                [0m📅 Learn about upcoming events & opportunities[0m
+                                [0m🔍 Learn how to craft an impactful LinkedIn profile[0m
                               [36m</li>[39m
                               [36m<li>[39m
-                                [0m💡 Share your ideas for the semester[0m
+                                [0m💬 Discussion & peer review session – bring your drafts![0m
                               [36m</li>[39m
                               [36m<li>[39m
-                                [0m🍩 Enjoy free donuts while connecting with peers[0m
+                                [0m🤝 Get feedback from peers and ACM-W officers[0m
                               [36m</li>[39m
                             [36m</ul>[39m
                           [36m</div>[39m
@@ -167,8 +167,7 @@ FAIL src/App.test.tsx
                                 [33mstroke-width[39m=[32m"0"[39m
                                 [33mstyle[39m=[32m"color: rgb(70, 130, 180);"[39m
                                 [33mviewBox[39m=[32m"0 0 448 512"[39m
-                                [33mwidth[39m=[32m"5vw"[39m
-                          ...
+                       ...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -198,10 +197,10 @@ All files            |   17.64 |        0 |    37.5 |   17.64 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |      40 |      100 |      40 |      40 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      25 |      100 |      25 |      25 | 287-493           
+  Home.tsx           |      25 |      100 |      25 |      25 | 288-494           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.5 s
+Time:        2.385 s
 Ran all test suites.
