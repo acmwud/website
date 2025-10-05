@@ -226,25 +226,25 @@ function Home() {
     <Card style={{ borderRadius: "15px", boxShadow: "0 4px 15px rgba(0,0,0,0.2)" }}>
       <Card.Body>
         <Card.Title className="text-center mb-3" style={{ fontSize: "2rem", fontWeight: "bold" }}>
-        ACM-W Resume & LinkedIn Workshop 
+        ACM-W Game Night
         </Card.Title>
         
         <Card.Subtitle className="text-center text-muted mb-3">
-        Monday, September 22nd · 6:30 PM
+        Monday, October 6th · 6:30 PM
          <br />
           Ewing Hall, Room 204
         </Card.Subtitle>
 
         <Card.Text className="text-center">
-        Level up your job search with ACM-W! 🚀 \n
-        Join us for an interactive workshop where we'll cover how to make your resume and LinkedIn stand out.
+        Take a break and join ACM-W for a fun night of games! ✨  
+        Meet new people, relax, and enjoy board games, card games, and more.
         </Card.Text>
 
         <ul style={{ listStyleType: "none", paddingLeft: "0", fontSize: "1.1rem" }}>
-          <li>📝 Tips on showcasing your skills and experience</li>
-          <li>🔍 Learn how to craft an impactful LinkedIn profile</li>
-          <li>💬 Discussion & peer review session – bring your drafts!</li>
-          <li>🤝 Get feedback from peers and ACM-W officers</li>
+        <li>🎲 Board games & card games provided</li>
+          <li>🍕 Snacks and drinks available</li>
+          <li>🤝 Meet and connect with ACM-W members</li>
+          <li>🌟 A casual, fun way to kick back on campus</li>
         </ul>
 
         {/*<div className="d-flex flex-column align-items-center mt-4">
