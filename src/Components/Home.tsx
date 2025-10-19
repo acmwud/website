@@ -226,25 +226,23 @@ function Home() {
     <Card style={{ borderRadius: "15px", boxShadow: "0 4px 15px rgba(0,0,0,0.2)" }}>
       <Card.Body>
         <Card.Title className="text-center mb-3" style={{ fontSize: "2rem", fontWeight: "bold" }}>
-        ACM-W Game Night
+        ACM-W Pumkin Painting
         </Card.Title>
         
         <Card.Subtitle className="text-center text-muted mb-3">
-        Monday, October 6th · 6:30 PM
+        Monday, October 20th · 6:30 PM
          <br />
           Ewing Hall, Room 204
         </Card.Subtitle>
 
         <Card.Text className="text-center">
-        Take a break and join ACM-W for a fun night of games! ✨  
-        Meet new people, relax, and enjoy board games, card games, and more.
+        Get into the fall spirit with ACM-W! 🍂  
+  Come paint your own pumpkin, enjoy cozy vibes, and relax with friends.
         </Card.Text>
 
         <ul style={{ listStyleType: "none", paddingLeft: "0", fontSize: "1.1rem" }}>
-        <li>🎲 Board games & card games provided</li>
-          <li>🍕 Snacks and drinks available</li>
-          <li>🤝 Meet and connect with ACM-W members</li>
-          <li>🌟 A casual, fun way to kick back on campus</li>
+        <li> Meet and create with fellow ACM-W members</li>
+          <li>A relaxing, creative night to celebrate autumn</li>
         </ul>
 
         {/*<div className="d-flex flex-column align-items-center mt-4">
