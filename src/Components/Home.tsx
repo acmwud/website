@@ -226,26 +226,25 @@ function Home() {
     <Card style={{ borderRadius: "15px", boxShadow: "0 4px 15px rgba(0,0,0,0.2)" }}>
       <Card.Body>
         <Card.Title className="text-center mb-3" style={{ fontSize: "2rem", fontWeight: "bold" }}>
-        ACM-W Pumkin Painting
+        ACM-W Bracelet Making Night
         </Card.Title>
         
         <Card.Subtitle className="text-center text-muted mb-3">
-        Monday, October 20th · 6:30 PM
+        Monday, November 3th · 6:30 PM
          <br />
           Ewing Hall, Room 204
         </Card.Subtitle>
 
         <Card.Text className="text-center">
-        Get into the fall spirit with ACM-W! 🍂  
-  Come paint your own pumpkin, enjoy cozy vibes, and relax with friends.
+        Join us for a fun Bracelet Making Night — design your own bracelets, unwind, and connect with friends. 
         </Card.Text>
 
         <ul style={{ listStyleType: "none", paddingLeft: "0", fontSize: "1.1rem" }}>
-        <li> Meet and create with fellow ACM-W members</li>
-          <li>A relaxing, creative night to celebrate autumn</li>
+        <li> Meet and craft with fellow ACM-W members</li>
+          <li>relaxing, hands-on evening filled with creativity and connection</li>
         </ul>
 
-        {/*<div className="d-flex flex-column align-items-center mt-4">
+        {/*<div className="d-flex    flex-column align-items-center mt-4">
           <Button
             style={{ width: "80%", marginBottom: "1vh", fontSize: "1.2rem", backgroundColor: "#4682B4", border: "0px" }}
             onClick={() => window.location.href = "https://www.instagram.com/acmwud/"}
