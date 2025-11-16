@@ -230,7 +230,7 @@ function Home() {
         </Card.Title>
         
         <Card.Subtitle className="text-center text-muted mb-3">
-        Monday, November 7th · 6:30 PM
+        Monday, November 17th · 6:30 PM
          <br />
           Ewing Hall, Room 204
         </Card.Subtitle>
