@@ -3,7 +3,7 @@
 > react-scripts test --coverage
 
 FAIL src/App.test.tsx
-  ✕ renders learn react link (142 ms)
+  ✕ renders learn react link (154 ms)
 
   ● renders learn react link
 
@@ -105,28 +105,25 @@ FAIL src/App.test.tsx
                               [33mclass[39m=[32m"text-center mb-3 card-title h5"[39m
                               [33mstyle[39m=[32m"font-size: 2rem; font-weight: bold;"[39m
                             [36m>[39m
-                              [0mACM-W Bracelet Making Night[0m
+                              [0mConferences Info Session[0m
                             [36m</div>[39m
                             [36m<div[39m
                               [33mclass[39m=[32m"text-center text-muted mb-3 card-subtitle h6"[39m
                             [36m>[39m
-                              [0mMonday, November 3th · 6:30 PM[0m
+                              [0mMonday, November 7th · 6:30 PM[0m
                               [36m<br />[39m
                               [0mEwing Hall, Room 204[0m
                             [36m</div>[39m
                             [36m<p[39m
                               [33mclass[39m=[32m"text-center card-text"[39m
                             [36m>[39m
-                              [0mJoin us for a fun Bracelet Making Night — design your own bracelets, unwind, and connect with friends.[0m
+                              [0mJoin ACM-W for Conferences and Resources info session and discover upcoming opportunities![0m
                             [36m</p>[39m
                             [36m<ul[39m
                               [33mstyle[39m=[32m"list-style-type: none; padding-left: 0px; font-size: 1.1rem;"[39m
                             [36m>[39m
                               [36m<li>[39m
-                                [0m Meet and craft with fellow ACM-W members[0m
-                              [36m</li>[39m
-                              [36m<li>[39m
-                                [0mrelaxing, hands-on evening filled with creativity and connection[0m
+                                [0mLearn how to get involved and connect with other women in computing — and become part of a support network that lifts you up. [0m
                               [36m</li>[39m
                             [36m</ul>[39m
                           [36m</div>[39m
@@ -165,7 +162,7 @@ FAIL src/App.test.tsx
                                 [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
                               [36m>[39m
                                 [36m<path[39m
-                                  [33md[39m=[32m"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33....
+                                  [33md[39m=[32m"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9...
 
     [0m [90m  5 |[39m test([32m'renders learn react link'[39m[33m,[39m () [33m=>[39m {
      [90m  6 |[39m   render([33m<[39m[33mApp[39m [33m/[39m[33m>[39m)[33m;[39m
@@ -195,10 +192,10 @@ All files            |   17.64 |        0 |    37.5 |   17.64 |
   reportWebVitals.ts |       0 |        0 |       0 |       0 | 3-10              
  src/Components      |      40 |      100 |      40 |      40 |                   
   Eboard.tsx         |     100 |      100 |     100 |     100 |                   
-  Home.tsx           |      25 |      100 |      25 |      25 | 285-491           
+  Home.tsx           |      25 |      100 |      25 |      25 | 284-490           
 ---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.172 s
+Time:        2.448 s
 Ran all test suites.
