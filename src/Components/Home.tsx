@@ -226,22 +226,21 @@ function Home() {
     <Card style={{ borderRadius: "15px", boxShadow: "0 4px 15px rgba(0,0,0,0.2)" }}>
       <Card.Body>
         <Card.Title className="text-center mb-3" style={{ fontSize: "2rem", fontWeight: "bold" }}>
-        ACM-W Bracelet Making Night
+        Conferences Info Session
         </Card.Title>
         
         <Card.Subtitle className="text-center text-muted mb-3">
-        Monday, November 3th · 6:30 PM
+        Monday, November 7th · 6:30 PM
          <br />
           Ewing Hall, Room 204
         </Card.Subtitle>
 
         <Card.Text className="text-center">
-        Join us for a fun Bracelet Making Night — design your own bracelets, unwind, and connect with friends. 
+        Join ACM-W for Conferences and Resources info session and discover upcoming opportunities!
         </Card.Text>
 
         <ul style={{ listStyleType: "none", paddingLeft: "0", fontSize: "1.1rem" }}>
-        <li> Meet and craft with fellow ACM-W members</li>
-          <li>relaxing, hands-on evening filled with creativity and connection</li>
+        <li>Learn how to get involved and connect with other women in computing — and become part of a support network that lifts you up. </li>
         </ul>
 
         {/*<div className="d-flex    flex-column align-items-center mt-4">
