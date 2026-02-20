@@ -226,21 +226,23 @@ function Home() {
     <Card style={{ borderRadius: "15px", boxShadow: "0 4px 15px rgba(0,0,0,0.2)" }}>
       <Card.Body>
         <Card.Title className="text-center mb-3" style={{ fontSize: "2rem", fontWeight: "bold" }}>
-        Conferences Info Session
+          ACM-W First General Meeting
         </Card.Title>
         
         <Card.Subtitle className="text-center text-muted mb-3">
-        Monday, November 17th · 6:30 PM
-         <br />
-          Ewing Hall, Room 204
+          Wednesday · 6:30 PM
+          <br />
+          Allison Hall, Room 227
         </Card.Subtitle>
 
         <Card.Text className="text-center">
-        Join ACM-W for Conferences and Resources info session and discover upcoming opportunities!
+          Join us for our first meeting of the semester!
         </Card.Text>
 
         <ul style={{ listStyleType: "none", paddingLeft: "0", fontSize: "1.1rem" }}>
-        <li>Learn how to get involved and connect with other women in computing — and become part of a support network that lifts you up. </li>
+          <li>
+            We’ll be playing a fun Computer Science / Women in Tech themed Jeopardy — come test your knowledge and connect with others!
+          </li>
         </ul>
 
         {/*<div className="d-flex    flex-column align-items-center mt-4">
